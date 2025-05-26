@@ -11,7 +11,7 @@ public class DialogueManager : MonoBehaviour
 
     [Header("Configuration bulle de dialogue")]
     [SerializeField] private GameObject dialogueBubblePrefab;
-    private float bubbleOffset = 220f; // Distance au-dessus du PNJ en unités monde
+    private float bubbleOffsetPercent = 0.2f; // Distance au-dessus du PNJ en unités monde
     private Transform bubbleTarget; // defini la position de la bulle de dialogue
     private GameObject activeBubble;
 
@@ -153,22 +153,29 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    private void PositionBubble()
+    public void PositionBubble()
     {
         if (bubbleTarget == null || activeBubble == null) return;
-        
+
         // Convertir la position monde du PNJ en position écran
         Vector3 screenPos = Camera.main.WorldToScreenPoint(bubbleTarget.position);
         
-        // Ajouter l'offset en pixels pour l'UI
-        screenPos.y += bubbleOffset; // Offset en pixels pour l'UI (ajustez selon vos besoins)
+        // Vérifier si le point est devant la caméra
+        if (screenPos.z < 0)
+        {
+            activeBubble.SetActive(false);
+            return;
+        }
+        
+        activeBubble.SetActive(true);
+        
+        // Calculer l'offset en fonction de la hauteur de l'écran
+        float offset = Screen.height * bubbleOffsetPercent; // Convertir le pourcentage en décimal
         
         // Appliquer la position à la bulle UI
         RectTransform rectTransform = activeBubble.GetComponent<RectTransform>();
-        if (rectTransform != null)
-        {
-            rectTransform.position = screenPos;
-        }
+        Vector3 newPosition = new Vector3(screenPos.x, screenPos.y + offset, 0);
+        rectTransform.position = newPosition;
     }
 
     private void DisplayCurrentLine()

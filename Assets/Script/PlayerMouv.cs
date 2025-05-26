@@ -4,12 +4,20 @@ using UnityEngine;
 
 public class PlayerMov : MonoBehaviour
 {
-    public Rigidbody2D rb;
+    private Rigidbody2D rb;
     public float Vitesse = 5f;
     Vector2 mouvement;
-    public Animator animator;
+    private Animator animator;
+    private AudioSource _AudioSource;
 
     // Update is called once per frame
+    private void Awake()
+    {
+        rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
+        _AudioSource = GetComponent<AudioSource>();
+    }
+
     void Update()
     {
         if(!MenuInGame.isPaused)
@@ -23,7 +31,11 @@ public class PlayerMov : MonoBehaviour
             mouvement.Normalize();
             rb.linearVelocity = mouvement * Vitesse;
 
-           //  rb.MovePosition(rb.position + mouvement * Vitess * Time.deltaTime);
+           if(_AudioSource.isPlaying == false)
+            {
+                _AudioSource.Play();
+            }
         }
     }
+    
 }

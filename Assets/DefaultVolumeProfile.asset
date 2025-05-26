@@ -587,7 +587,7 @@ MonoBehaviour:
     m_Value: 0.05
   verticalBlur:
     m_OverrideState: 1
-    m_Value: 0.05
+    m_Value: 0.066
 --- !u!114 &2332282131777942337
 MonoBehaviour:
   m_ObjectHideFlags: 3

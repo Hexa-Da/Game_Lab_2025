@@ -34,6 +34,7 @@ public class Interaction : MonoBehaviour
             MenuInGame.instance.UpdateUI();
             m_AudioSource = GetComponent<AudioSource>();
             m_AudioSource.Play();
+            inventoryManager.AddItem(spriteDeLObjet);
         }
         onInteraction.Invoke(); // déclanche l'enssemble des fonction attachées à onInteraction
         // setActive(false) pour les objets ramassables
