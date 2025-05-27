@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.Events;
-
+using UnityEngine.UI; // Added for Sprite type
 
 // Rattaché à chaque objet avec lequel on peut interagir
 // Script qui gère l'interaction avec les objets
@@ -8,7 +8,6 @@ public class Interaction : MonoBehaviour
 {
     Outline outline;
     public UnityEvent onInteraction;
-
     private AudioSource m_AudioSource;
     
     [Header("Options")]
@@ -19,10 +18,15 @@ public class Interaction : MonoBehaviour
     [SerializeField] private Transform transformNPC;
     [SerializeField] private string npcId; 
 
+    [Header("Pickup Options")]
+    [SerializeField] private Sprite spriteDeLObjet; // Added sprite field for pickup items
+    private InventoryManager inventoryManager; // Added inventory manager reference
+
     void Start()
     {
         outline = GetComponent<Outline>(); // on recupère le script outline
         DisableOutline(); // et on le désactive au début
+        inventoryManager = FindObjectOfType<InventoryManager>(); // Find the inventory manager
     }
 
     public void Interact()

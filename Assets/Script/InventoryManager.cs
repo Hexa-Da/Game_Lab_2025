@@ -31,7 +31,7 @@ public class InventoryManager : MonoBehaviour
             slotImages.Add(img);
             collectedItemSprites.Add(null);
             img.sprite = null;
-            img.color = new Color(1,1,1,0.2f); // slot vide visible
+            img.color = new Color(1,1,1,0.5f); // slot vide visible
         }
     }
 
