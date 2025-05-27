@@ -584,10 +584,10 @@ MonoBehaviour:
   active: 1
   horizontalBlur:
     m_OverrideState: 1
-    m_Value: 0.05
+    m_Value: 0.086
   verticalBlur:
     m_OverrideState: 1
-    m_Value: 0.05
+    m_Value: 0.061
 --- !u!114 &2332282131777942337
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -737,7 +737,7 @@ MonoBehaviour:
     m_Value: 4
   chromaticAbberationIntensity:
     m_OverrideState: 1
-    m_Value: 0.5
+    m_Value: 0.509
 --- !u!114 &7933203426823181213
 MonoBehaviour:
   m_ObjectHideFlags: 3
