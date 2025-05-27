@@ -18,7 +18,8 @@ public class BlurRendererFeature : ScriptableRendererFeature
         }
         material = new Material(shader);
         blurRenderPass = new BlurRenderPass(material, settings);
-        
+
+       // blurRenderPass.renderPassEvent = RenderPassEvent.BeforeRenderingPostProcessing;
         blurRenderPass.renderPassEvent = RenderPassEvent.AfterRenderingPostProcessing;
     }
 

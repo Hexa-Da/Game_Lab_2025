@@ -1,0 +1,28 @@
+[
+  {
+    "MountId": "56e62dd7-241f-41e9-8c6b-dd4ca4513e62",
+    "AncestorCsetIds": [
+      50
+    ],
+    "SourceCsetId": 51,
+    "DestinationCsetId": 50,
+    "FileConflicts": [
+      {
+        "Path": "/Assets/Scenes/Scene.unity",
+        "ItemId": 311,
+        "ParentItemId": 572,
+        "BaseRevId": 10476,
+        "SourceRevId": 10485,
+        "DestinationRevId": 10476
+      },
+      {
+        "Path": "/Assets/Script/Interaction.cs",
+        "ItemId": 7407,
+        "ParentItemId": 313,
+        "BaseRevId": 8216,
+        "SourceRevId": 10487,
+        "DestinationRevId": 8216
+      }
+    ]
+  }
+]
