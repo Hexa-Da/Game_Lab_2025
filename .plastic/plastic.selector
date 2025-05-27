@@ -1,3 +1,7 @@
 rep "Game_Lab_2025/Game_Lab_2025@9072235109473@cloud"
   path "/"
+<<<<<<< Updated upstream
     smartbranch "/main"
+=======
+    smartbranch "/main" changeset "56"      
+>>>>>>> Stashed changes

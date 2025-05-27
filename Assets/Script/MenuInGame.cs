@@ -14,16 +14,17 @@ public class MenuInGame : MonoBehaviour
     [SerializeField] private GameObject selectedGameObject; // Référence au bouton sélectionné dès l'ouverture du menu
     [SerializeField] private EventSystem eventController; 
     [SerializeField] private Button pauseButton; 
+    [SerializeField] private GameObject stickCounter;
+    [SerializeField] private GameObject fragmentCounter;
     public GameObject menuInGame; 
     public GameObject option; 
-    public GameObject inventory;
     public static bool isPaused; 
     public static bool inOption; 
-    public static bool inInventory; 
 
     [Header("Animation")]
     [SerializeField] private float fadeDuration = 0.5f; 
-    private CanvasGroup pauseButtonCanvasGroup; // crée un CanvasGroup pour le bouton de pause
+    [SerializeField] private GameObject hudGroup;
+    private CanvasGroup hudCanvasGroup;
     private Coroutine currentFadeCoroutine; // Ajout d'une coroutine pour l'animation
 
     [Header("UI Elements")]
@@ -35,35 +36,26 @@ public class MenuInGame : MonoBehaviour
     [SerializeField] private Button optionButton;
     [SerializeField] private Button optionCloseButton;
 
-    [Header("Inventory")]
-    [SerializeField] private GameObject selectedInventory; // Référence au bouton sélectionné dès l'ouverture de l'inventaire
-    [SerializeField] private GameObject inventoryPanel; // Panel contenant la grille d'inventaire
-    [SerializeField] private GameObject inventoryGrid; // Grille pour afficher les objets
-    [SerializeField] private Button inventoryButton; // Bouton pour ouvrir l'inventaire depuis le menu principal
-    [SerializeField] private Button inventoryCloseButton; // Bouton pour fermer l'inventaire
-    [SerializeField] private TMP_Text inventoryTitle; // Titre de l'inventaire
-    [SerializeField] private TMP_Text itemCounterText; // Référence au texte pour afficher le nombre d'objets
-    private int itemCount = 0;
-    private List<GameObject> collectedItems = new List<GameObject>(); // Liste des objets collectés
+    [Header("UI Compteurs")]
+    [SerializeField] public TMP_Text stickCounterText;
+    [SerializeField] public TMP_Text fragmentCounterText;
 
     private void Awake()
     {
         instance = this;
-        // Récupère le CanvasGroup du bouton pause
-        pauseButtonCanvasGroup = pauseButton.GetComponent<CanvasGroup>();
+        // Récupère le CanvasGroup de l'hud
+        hudCanvasGroup = hudGroup.GetComponent<CanvasGroup>();
+
+        // Initialisation des compteurs à l'écran
+        UpdateUI(0, 0); // Affiche les compteurs à 0 au démarrage
     }
 
     void Start()
     {
         menuInGame.SetActive(false);
         option.SetActive(false);
-        inventory.SetActive(false);
-        inInventory = false;
         inOption = false;
         isPaused = false;
-        
-        // Initialise le nombre d'objets collectés
-        itemCounterText.text = "Nombre d'objects\n" + itemCount;
 
         // Vérification et configuration du bouton pause    
         if (pauseButton != null)
@@ -80,16 +72,6 @@ public class MenuInGame : MonoBehaviour
         {
             optionCloseButton.onClick.AddListener(CloseOption);
         }
-
-        // Vérification et configuration du bouton d'inventaire
-        if (inventoryButton != null)
-        {
-            inventoryButton.onClick.AddListener(ToggleInventory);
-        }
-        if (inventoryCloseButton != null)
-        {
-            inventoryCloseButton.onClick.AddListener(CloseInventory);
-        }
     }
 
     void Update()
@@ -99,10 +81,6 @@ public class MenuInGame : MonoBehaviour
             if (inOption)
             {
                 CloseOption();
-            }
-            else if (inInventory)
-            {
-                CloseInventory();
             }
             else if (isPaused)
             {
@@ -137,47 +115,33 @@ public class MenuInGame : MonoBehaviour
     // Fonction pour l'animation du bouton de pause
     private IEnumerator FadeButton(bool show)
     {
-        float startAlpha = pauseButtonCanvasGroup.alpha;
-        float targetAlpha = show ? 1f : 0f; // Si show est true, alors targetAlpha est 1, sinon 0
-        float elapsedTime = 0f; 
+        float startAlpha = hudCanvasGroup.alpha;
+        float targetAlpha = show ? 1f : 0f;
+        float elapsedTime = 0f;
+
+        float hudStartAlpha = hudCanvasGroup.alpha;
 
         while (elapsedTime < fadeDuration)
         {
             elapsedTime += Time.deltaTime;
             float t = elapsedTime / fadeDuration;
-            // Interpolation linéaire entre startAlpha et targetAlpha
-            pauseButtonCanvasGroup.alpha = Mathf.Lerp(startAlpha, targetAlpha, t); 
+            hudCanvasGroup.alpha = Mathf.Lerp(startAlpha, targetAlpha, t);
             yield return null;
         }
 
-        pauseButtonCanvasGroup.alpha = targetAlpha;
-        pauseButton.interactable = show;
-        currentFadeCoroutine = null; // Réinitialise la coroutine
-    }
-
-    // Fonction pour mettre à jour l'inventaire lorsque le joueur ramasse un objet
-    public void UpdateUI()
-    {
-        itemCount++;
-        itemCounterText.text = "Nombre d'objects\n" + itemCount;
-        // Mettre à jour la grille d'inventaire
-        UpdateInventoryGrid();
-    }
-
-    private void UpdateInventoryGrid()
-    {
-        // TODO: Ajouter la logique pour afficher les objets dans la grille
+        hudCanvasGroup.alpha = targetAlpha;
+        hudCanvasGroup.interactable = show;
+        hudCanvasGroup.blocksRaycasts = show;
+        currentFadeCoroutine = null;
     }
 
     public void ResumeGame()
     {
         menuInGame.SetActive(false);
         option.SetActive(false);
-        inventory.SetActive(false);
         Time.timeScale = 1;
         isPaused = false;
         inOption = false;
-        inInventory = false;
         
         // Notifier le DialogueManager que le menu est fermé
         if (DialogueManager.instance != null)
@@ -201,11 +165,9 @@ public class MenuInGame : MonoBehaviour
     {
         menuInGame.SetActive(true);
         option.SetActive(false);
-        inventory.SetActive(false);
         Time.timeScale = 0;
         isPaused = true;
         inOption = false;
-        inInventory = false;
         eventController.SetSelectedGameObject(selectedGameObject);
         
         // Notifier le DialogueManager que le menu est ouvert
@@ -230,20 +192,6 @@ public class MenuInGame : MonoBehaviour
         inOption = false;
     }
 
-    public void ToggleInventory()
-    {
-        inventory.SetActive(true);
-        eventController.SetSelectedGameObject(selectedInventory);
-        inInventory = true;
-    }
-
-    public void CloseInventory()
-    {
-        inventory.SetActive(false);
-        eventController.SetSelectedGameObject(selectedGameObject);
-        inInventory = false;
-    }
-
     public void GoToMainMenu()
     {
         Time.timeScale = 1;
@@ -251,7 +199,14 @@ public class MenuInGame : MonoBehaviour
         // on désacrive le menu car
         // si le joueur relance le jeu, il arrive dans le jeu et non dans le menu 
         inOption = false;
-        inInventory = false;
         SceneManager.LoadScene("Menu");
+    }
+
+    public void UpdateUI(int stickCount, int fragmentCount)
+    {
+        if (stickCounterText != null)
+            stickCounterText.text = stickCount.ToString();
+        if (fragmentCounterText != null)
+            fragmentCounterText.text = fragmentCount.ToString();
     }
 }
