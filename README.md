@@ -7,14 +7,23 @@ Un projet de jeu Unity développé dans le cadre du Game Lab 2025.
 Ce projet est un jeu développé avec Unity, incluant un système de menu en jeu avec :
 - Un menu pause
 - Un menu d'options
-- Un système d'inventaire
+- Un système de compteurs d'objets ramassés (sticks et fragments)
 
-## Fonctionnalités
+## Avancement du projet (Juin 2024)
 
-- Menu pause accessible avec la touche Échap
-- Menu d'options pour configurer le jeu
-- Système d'inventaire pour gérer les objets collectés
-- Interface utilisateur intuitive et responsive
+- **Menus fonctionnels** :
+  - Menu pause accessible avec la touche Échap
+  - Menu d'options opérationnel
+- **Système d'inventaire retiré** :
+  - L'inventaire visuel a été supprimé pour se concentrer sur des compteurs d'objets ramassés
+- **Compteurs d'objets** :
+  - Deux compteurs affichent en temps réel le nombre de bâtons (sticks) et de fragments ramassés
+  - Les compteurs sont visibles en jeu et animés avec le bouton pause
+- **UI** :
+  - Interface utilisateur responsive
+  - Les compteurs et le bouton pause disparaissent/réapparaissent ensemble selon l'état du jeu
+- **Interactions** :
+  - Les objets ramassables mettent à jour les compteurs via le script d'interaction
 
 ## Prérequis
 
@@ -37,9 +46,11 @@ git clone https://github.com/votre-username/Game_Lab_2025.git
 ```
 Assets/
 ├── Script/           # Scripts C#
-├── Scenes/          # Scènes du jeu
-├── Prefabs/         # Préfabriqués
-└── UI/              # Éléments d'interface utilisateur
+├── Scenes/           # Scènes du jeu
+├── Prefabs/          # Préfabriqués
+├── Audios/           # Effets sonores et musiques
+├── Sprites/          # Images et sprites du jeu
+└── UI/               # Éléments d'interface utilisateur
 ```
 
 ## Contribution
