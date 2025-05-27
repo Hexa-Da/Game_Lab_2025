@@ -1,0 +1,1638 @@
+fileFormatVersion: 2
+guid: fbfb5e7d41b81b848b3e17a92c5bbbaa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7395457438161162175
+    second: cailloux_0
+  - first:
+      213: 3898601652310809109
+    second: cailloux_1
+  - first:
+      213: 8298477975465262075
+    second: cailloux_2
+  - first:
+      213: -3637205974590521544
+    second: cailloux_3
+  - first:
+      213: 1670668294483933596
+    second: cailloux_4
+  - first:
+      213: 8201969400414296578
+    second: cailloux_5
+  - first:
+      213: 6260228370369447638
+    second: cailloux_6
+  - first:
+      213: 5963462080766113862
+    second: cailloux_7
+  - first:
+      213: -5047704683084510838
+    second: cailloux_8
+  - first:
+      213: -937182343070513171
+    second: cailloux_9
+  - first:
+      213: 5014728092145551285
+    second: cailloux_10
+  - first:
+      213: -5253861558419381997
+    second: cailloux_11
+  - first:
+      213: 8321883014842499527
+    second: cailloux_12
+  - first:
+      213: 2611332225428028794
+    second: cailloux_13
+  - first:
+      213: -777769625398842348
+    second: cailloux_14
+  - first:
+      213: 3230280984408339448
+    second: cailloux_15
+  - first:
+      213: -8502735626275805018
+    second: cailloux_16
+  - first:
+      213: 4808384053696991381
+    second: cailloux_17
+  - first:
+      213: 4777086846525903601
+    second: cailloux_18
+  - first:
+      213: -1034862030803268911
+    second: cailloux_19
+  - first:
+      213: -7728902101583695156
+    second: cailloux_20
+  - first:
+      213: -144634578686649338
+    second: cailloux_21
+  - first:
+      213: 8885381535922649857
+    second: cailloux_22
+  - first:
+      213: -9154597219439417537
+    second: cailloux_23
+  - first:
+      213: 5485542091748841325
+    second: cailloux_24
+  - first:
+      213: 3968789485537498088
+    second: cailloux_25
+  - first:
+      213: 2589241358671160754
+    second: cailloux_26
+  - first:
+      213: 914865449301621594
+    second: cailloux_27
+  - first:
+      213: 1920124618919025179
+    second: cailloux_28
+  - first:
+      213: -7855471637666951975
+    second: cailloux_29
+  - first:
+      213: -4121269984967065442
+    second: cailloux_30
+  - first:
+      213: -364563672880728074
+    second: cailloux_31
+  - first:
+      213: -4994143794949094663
+    second: cailloux_32
+  - first:
+      213: -5652337420364474069
+    second: cailloux_33
+  - first:
+      213: 6079366187833335551
+    second: cailloux_34
+  - first:
+      213: -6358057796891118268
+    second: cailloux_35
+  - first:
+      213: -5777254522930935017
+    second: cailloux_36
+  - first:
+      213: 1391816366577728458
+    second: cailloux_37
+  - first:
+      213: -8616605133748711036
+    second: cailloux_38
+  - first:
+      213: 4205875547329398528
+    second: cailloux_39
+  - first:
+      213: 8528594011038999114
+    second: cailloux_40
+  - first:
+      213: -3831041124568739209
+    second: cailloux_41
+  - first:
+      213: -64527532779556383
+    second: cailloux_42
+  - first:
+      213: -2132850808446453410
+    second: cailloux_43
+  - first:
+      213: 2355337400988540707
+    second: cailloux_44
+  - first:
+      213: 6319103879550264284
+    second: cailloux_45
+  - first:
+      213: 8268146501225270575
+    second: cailloux_46
+  - first:
+      213: 1039852255740261007
+    second: cailloux_47
+  - first:
+      213: 1283894210371857369
+    second: cailloux_48
+  - first:
+      213: -3417313652735334388
+    second: cailloux_49
+  - first:
+      213: -5104998322174293112
+    second: cailloux_50
+  - first:
+      213: -3300561786945999841
+    second: cailloux_51
+  - first:
+      213: -6407738926374477605
+    second: cailloux_52
+  - first:
+      213: -6324353510951463011
+    second: cailloux_53
+  - first:
+      213: -5439941971255049052
+    second: cailloux_54
+  - first:
+      213: 86136059680216515
+    second: cailloux_55
+  - first:
+      213: -7434572466237359628
+    second: cailloux_56
+  - first:
+      213: 1520483838108662959
+    second: cailloux_57
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cailloux_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 270
+        width: 59
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbfcd117b51f1a660800000000000000
+      internalID: 7395457438161162175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_1
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 4
+        width: 309
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51a9cbe0c8d9a1630800000000000000
+      internalID: 3898601652310809109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_2
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 265
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfb720060cd1a2370800000000000000
+      internalID: 8298477975465262075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_3
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 281
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83f7a95df6c068dc0800000000000000
+      internalID: -3637205974590521544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_4
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 291
+        width: 39
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c99f83656f76f2710800000000000000
+      internalID: 1670668294483933596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_5
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 277
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20a515ab6bf33d170800000000000000
+      internalID: 8201969400414296578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_6
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 313
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d681b4e88cc0e650800000000000000
+      internalID: 6260228370369447638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_7
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 260
+        width: 35
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 648739baa2972c250800000000000000
+      internalID: 5963462080766113862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_8
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 299
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a890ca9a553f2f9b0800000000000000
+      internalID: -5047704683084510838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_9
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 270
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de78387df957ef2f0800000000000000
+      internalID: -937182343070513171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_10
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 281
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b7028171a4e79540800000000000000
+      internalID: 5014728092145551285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_11
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 301
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 311255fafb88617b0800000000000000
+      internalID: -5253861558419381997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_12
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 268
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c14b02c2844d7370800000000000000
+      internalID: 8321883014842499527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_13
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 293
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7dfa27d2d05d3420800000000000000
+      internalID: 2611332225428028794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_14
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 305
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41c630185aec435f0800000000000000
+      internalID: -777769625398842348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_15
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 259
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f3bb58c07344dc20800000000000000
+      internalID: 3230280984408339448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_16
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 291
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a8a5c05ff6300a80800000000000000
+      internalID: -8502735626275805018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_17
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 309
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 590134822dfcab240800000000000000
+      internalID: 4808384053696991381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_18
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 273
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f21e544d2f9b4240800000000000000
+      internalID: 4777086846525903601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_19
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 293
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1da8e66477e63a1f0800000000000000
+      internalID: -1034862030803268911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_20
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 306
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc27553fc7c6db490800000000000000
+      internalID: -7728902101583695156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_21
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 293
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60cd423fd972efdf0800000000000000
+      internalID: -144634578686649338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_22
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 280
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10bfb7e1e673f4b70800000000000000
+      internalID: 8885381535922649857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_23
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 265
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f37e881055654f080800000000000000
+      internalID: -9154597219439417537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_24
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 299
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d679423087f802c40800000000000000
+      internalID: 5485542091748841325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_25
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 267
+        width: 48
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e394c17209f31730800000000000000
+      internalID: 3968789485537498088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_26
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 287
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b5285d1c45dee320800000000000000
+      internalID: 2589241358671160754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_27
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 253
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5bb6ea674142bc00800000000000000
+      internalID: 914865449301621594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_28
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 295
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1a962bea27a5aa10800000000000000
+      internalID: 1920124618919025179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_29
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 258
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dc84b56a22cbf290800000000000000
+      internalID: -7855471637666951975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_30
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 261
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e900f8ab8ce4ec6c0800000000000000
+      internalID: -4121269984967065442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_31
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 261
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f7bee3654fc0faf0800000000000000
+      internalID: -364563672880728074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_32
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 257
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f286d8bdac31bab0800000000000000
+      internalID: -4994143794949094663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_33
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 205
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b291784401dde81b0800000000000000
+      internalID: -5652337420364474069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_34
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 234
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffe9355865f3e5450800000000000000
+      internalID: 6079366187833335551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_35
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 233
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 445f6e2ce14a3c7a0800000000000000
+      internalID: -6358057796891118268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_36
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 199
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71bceafde9113dfa0800000000000000
+      internalID: -5777254522930935017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_37
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 243
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acbb07a7c99b05310800000000000000
+      internalID: 1391816366577728458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_38
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 193
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 481d919984bab6880800000000000000
+      internalID: -8616605133748711036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_39
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 166
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0070210d6854e5a30800000000000000
+      internalID: 4205875547329398528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_40
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 178
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a42e08d0117ab5670800000000000000
+      internalID: 8528594011038999114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_41
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 153
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 772da2a156865dac0800000000000000
+      internalID: -3831041124568739209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_42
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 162
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e131720d80ca1ff0800000000000000
+      internalID: -64527532779556383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_43
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 153
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e59f4a37d779662e0800000000000000
+      internalID: -2132850808446453410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_44
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 152
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32f1d1813e6dfa020800000000000000
+      internalID: 2355337400988540707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_45
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 121
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd3e2679f77f1b750800000000000000
+      internalID: 6319103879550264284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_46
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 125
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2dcb64bf6b5eb270800000000000000
+      internalID: 8268146501225270575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_47
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 120
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8279420e1c4e6e00800000000000000
+      internalID: 1039852255740261007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_48
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 104
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9db25626bfe41d110800000000000000
+      internalID: 1283894210371857369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_49
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 113
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c082e9aa6534390d0800000000000000
+      internalID: -3417313652735334388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_50
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 100
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88b06dbc2176729b0800000000000000
+      internalID: -5104998322174293112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_51
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 68
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1cead9ba8c0232d0800000000000000
+      internalID: -3300561786945999841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_52
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 45
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd0a10865632317a0800000000000000
+      internalID: -6407738926374477605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_53
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 49
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d975eb95df16b38a0800000000000000
+      internalID: -6324353510951463011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_54
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 37
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a4ca9469917184b0800000000000000
+      internalID: -5439941971255049052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_55
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 42
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c557973a44023100800000000000000
+      internalID: 86136059680216515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_56
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 20
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f9b5056bb713d890800000000000000
+      internalID: -7434572466237359628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cailloux_57
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 13
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fac7031bef7d91510800000000000000
+      internalID: 1520483838108662959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      cailloux_0: 7395457438161162175
+      cailloux_1: 3898601652310809109
+      cailloux_10: 5014728092145551285
+      cailloux_11: -5253861558419381997
+      cailloux_12: 8321883014842499527
+      cailloux_13: 2611332225428028794
+      cailloux_14: -777769625398842348
+      cailloux_15: 3230280984408339448
+      cailloux_16: -8502735626275805018
+      cailloux_17: 4808384053696991381
+      cailloux_18: 4777086846525903601
+      cailloux_19: -1034862030803268911
+      cailloux_2: 8298477975465262075
+      cailloux_20: -7728902101583695156
+      cailloux_21: -144634578686649338
+      cailloux_22: 8885381535922649857
+      cailloux_23: -9154597219439417537
+      cailloux_24: 5485542091748841325
+      cailloux_25: 3968789485537498088
+      cailloux_26: 2589241358671160754
+      cailloux_27: 914865449301621594
+      cailloux_28: 1920124618919025179
+      cailloux_29: -7855471637666951975
+      cailloux_3: -3637205974590521544
+      cailloux_30: -4121269984967065442
+      cailloux_31: -364563672880728074
+      cailloux_32: -4994143794949094663
+      cailloux_33: -5652337420364474069
+      cailloux_34: 6079366187833335551
+      cailloux_35: -6358057796891118268
+      cailloux_36: -5777254522930935017
+      cailloux_37: 1391816366577728458
+      cailloux_38: -8616605133748711036
+      cailloux_39: 4205875547329398528
+      cailloux_4: 1670668294483933596
+      cailloux_40: 8528594011038999114
+      cailloux_41: -3831041124568739209
+      cailloux_42: -64527532779556383
+      cailloux_43: -2132850808446453410
+      cailloux_44: 2355337400988540707
+      cailloux_45: 6319103879550264284
+      cailloux_46: 8268146501225270575
+      cailloux_47: 1039852255740261007
+      cailloux_48: 1283894210371857369
+      cailloux_49: -3417313652735334388
+      cailloux_5: 8201969400414296578
+      cailloux_50: -5104998322174293112
+      cailloux_51: -3300561786945999841
+      cailloux_52: -6407738926374477605
+      cailloux_53: -6324353510951463011
+      cailloux_54: -5439941971255049052
+      cailloux_55: 86136059680216515
+      cailloux_56: -7434572466237359628
+      cailloux_57: 1520483838108662959
+      cailloux_6: 6260228370369447638
+      cailloux_7: 5963462080766113862
+      cailloux_8: -5047704683084510838
+      cailloux_9: -937182343070513171
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

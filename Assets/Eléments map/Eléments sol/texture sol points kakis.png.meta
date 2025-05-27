@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: cf17a23e5641ff245ba22550e1fbc9aa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 995820408517236396
+    second: texture sol points kakis_0
+  - first:
+      213: 491626657194921802
+    second: texture sol points kakis_1
+  - first:
+      213: 5585335649624457750
+    second: texture sol points kakis_2
+  - first:
+      213: 1472603838952935453
+    second: texture sol points kakis_3
+  - first:
+      213: 6543681935051851880
+    second: texture sol points kakis_4
+  - first:
+      213: -8340803699896282691
+    second: texture sol points kakis_5
+  - first:
+      213: 6149318592859299240
+    second: texture sol points kakis_6
+  - first:
+      213: -2072864790136289270
+    second: texture sol points kakis_7
+  - first:
+      213: 317574196056116964
+    second: texture sol points kakis_8
+  - first:
+      213: 716454723759388107
+    second: texture sol points kakis_9
+  - first:
+      213: 7583582737000161142
+    second: texture sol points kakis_10
+  - first:
+      213: -8211312280777541288
+    second: texture sol points kakis_11
+  - first:
+      213: 8294256726234600981
+    second: texture sol points kakis_12
+  - first:
+      213: -4414934223046338855
+    second: texture sol points kakis_13
+  - first:
+      213: -8757422852817472492
+    second: texture sol points kakis_14
+  - first:
+      213: 1295585495148391353
+    second: texture sol points kakis_15
+  - first:
+      213: 5984951696222418160
+    second: texture sol points kakis_16
+  - first:
+      213: 8531539756520988033
+    second: texture sol points kakis_17
+  - first:
+      213: -5394124571506335114
+    second: texture sol points kakis_18
+  - first:
+      213: -2881587743384142632
+    second: texture sol points kakis_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: texture sol points kakis_0
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 173
+        width: 62
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca611cda26dd1dd00800000000000000
+      internalID: 995820408517236396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texture sol points kakis_1
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 186
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4f473807db92d600800000000000000
+      internalID: 491626657194921802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texture sol points kakis_2
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 178
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61201335e29138d40800000000000000
+      internalID: 5585335649624457750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texture sol points kakis_3
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 201
+        width: 44
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d109aaba36dbf6410800000000000000
+      internalID: 1472603838952935453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texture sol points kakis_4
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 183
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86808edcc04dfca50800000000000000
+      internalID: 6543681935051851880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texture sol points kakis_5
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 162
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db11b66f9338f3c80800000000000000
+      internalID: -8340803699896282691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texture sol points kakis_6
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 162
+        width: 37
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ad55120ea4c65550800000000000000
+      internalID: 6149318592859299240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texture sol points kakis_7
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 141
+        width: 39
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a080384b474bb33e0800000000000000
+      internalID: -2072864790136289270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texture sol points kakis_8
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 132
+        width: 42
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ee41c97c00486400800000000000000
+      internalID: 317574196056116964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texture sol points kakis_9
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 138
+        width: 40
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc5345b76cb51f900800000000000000
+      internalID: 716454723759388107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texture sol points kakis_10
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 123
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67fddabd15c4e3960800000000000000
+      internalID: 7583582737000161142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texture sol points kakis_11
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 130
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 859b37c6cfe8b0e80800000000000000
+      internalID: -8211312280777541288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texture sol points kakis_12
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 110
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5169b133c8e1b1370800000000000000
+      internalID: 8294256726234600981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texture sol points kakis_13
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 105
+        width: 35
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d69b9827b00bb2c0800000000000000
+      internalID: -4414934223046338855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texture sol points kakis_14
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 91
+        width: 37
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4143ded6052677680800000000000000
+      internalID: -8757422852817472492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texture sol points kakis_15
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 115
+        width: 36
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bbe77eb428daf110800000000000000
+      internalID: 1295585495148391353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texture sol points kakis_16
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 93
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f4753babd1de0350800000000000000
+      internalID: 5984951696222418160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texture sol points kakis_17
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 78
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18d5e8ed43e166670800000000000000
+      internalID: 8531539756520988033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texture sol points kakis_18
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 77
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 672a82118483425b0800000000000000
+      internalID: -5394124571506335114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texture sol points kakis_19
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 85
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dcf776f63b8208d0800000000000000
+      internalID: -2881587743384142632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      texture sol points kakis_0: 995820408517236396
+      texture sol points kakis_1: 491626657194921802
+      texture sol points kakis_10: 7583582737000161142
+      texture sol points kakis_11: -8211312280777541288
+      texture sol points kakis_12: 8294256726234600981
+      texture sol points kakis_13: -4414934223046338855
+      texture sol points kakis_14: -8757422852817472492
+      texture sol points kakis_15: 1295585495148391353
+      texture sol points kakis_16: 5984951696222418160
+      texture sol points kakis_17: 8531539756520988033
+      texture sol points kakis_18: -5394124571506335114
+      texture sol points kakis_19: -2881587743384142632
+      texture sol points kakis_2: 5585335649624457750
+      texture sol points kakis_3: 1472603838952935453
+      texture sol points kakis_4: 6543681935051851880
+      texture sol points kakis_5: -8340803699896282691
+      texture sol points kakis_6: 6149318592859299240
+      texture sol points kakis_7: -2072864790136289270
+      texture sol points kakis_8: 317574196056116964
+      texture sol points kakis_9: 716454723759388107
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

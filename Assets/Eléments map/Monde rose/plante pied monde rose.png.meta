@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: 2cc193ed4a44e3245984ab4fcea6f17a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1659861554207216841
+    second: plante pied monde rose_0
+  - first:
+      213: -9102973279762216752
+    second: plante pied monde rose_1
+  - first:
+      213: 885794211715451998
+    second: plante pied monde rose_2
+  - first:
+      213: 518254979776110584
+    second: plante pied monde rose_3
+  - first:
+      213: 437415803264046666
+    second: plante pied monde rose_4
+  - first:
+      213: -8751932626820847993
+    second: plante pied monde rose_5
+  - first:
+      213: -5678570583115317259
+    second: plante pied monde rose_6
+  - first:
+      213: 855149279496730116
+    second: plante pied monde rose_7
+  - first:
+      213: 5096095650692653803
+    second: plante pied monde rose_8
+  - first:
+      213: -563796031328285897
+    second: plante pied monde rose_9
+  - first:
+      213: -1324622617052607713
+    second: plante pied monde rose_10
+  - first:
+      213: -8943933082286706098
+    second: plante pied monde rose_11
+  - first:
+      213: -4672746250578805144
+    second: plante pied monde rose_12
+  - first:
+      213: 1203686981931470211
+    second: plante pied monde rose_13
+  - first:
+      213: 6968620210218739699
+    second: plante pied monde rose_14
+  - first:
+      213: 2408691954042583309
+    second: plante pied monde rose_15
+  - first:
+      213: -4232013475625376385
+    second: plante pied monde rose_16
+  - first:
+      213: 5876513444239570472
+    second: plante pied monde rose_17
+  - first:
+      213: 9143832549921483562
+    second: plante pied monde rose_18
+  - first:
+      213: -1243257714733810705
+    second: plante pied monde rose_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: plante pied monde rose_0
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 533
+        width: 67
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73ba625f5bcf6f8e0800000000000000
+      internalID: -1659861554207216841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante pied monde rose_1
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 53
+        width: 285
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d886eb180ebba180800000000000000
+      internalID: -9102973279762216752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante pied monde rose_2
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 545
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5c85657429fa4c00800000000000000
+      internalID: 885794211715451998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante pied monde rose_3
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 542
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ffd1a48826313700800000000000000
+      internalID: 518254979776110584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante pied monde rose_4
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 543
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4612b40b53021600800000000000000
+      internalID: 437415803264046666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante pied monde rose_5
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 545
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 786213845a3ea8680800000000000000
+      internalID: -8751932626820847993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante pied monde rose_6
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 570
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ffbd69142aa131b0800000000000000
+      internalID: -5678570583115317259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante pied monde rose_7
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 562
+        width: 68
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 406755a2db91edb00800000000000000
+      internalID: 855149279496730116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante pied monde rose_8
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 550
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be2e2f87ef7f8b640800000000000000
+      internalID: 5096095650692653803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante pied monde rose_9
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 307
+        width: 127
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73b07e22f7efc28f0800000000000000
+      internalID: -563796031328285897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante pied monde rose_10
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 443
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1b81297fbefd9de0800000000000000
+      internalID: -1324622617052607713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante pied monde rose_11
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 427
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e42bf67af34c0e380800000000000000
+      internalID: -8943933082286706098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante pied monde rose_12
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 399
+        width: 35
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86e36b8da02172fb0800000000000000
+      internalID: -4672746250578805144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante pied monde rose_13
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 369
+        width: 45
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38d89c2ceea54b010800000000000000
+      internalID: 1203686981931470211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante pied monde rose_14
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 198
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f722bce82385b060800000000000000
+      internalID: 6968620210218739699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante pied monde rose_15
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 207
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d09bc0602946d6120800000000000000
+      internalID: 2408691954042583309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante pied monde rose_16
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 136
+        width: 107
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f75eea48a2ed445c0800000000000000
+      internalID: -4232013475625376385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante pied monde rose_17
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 219
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 826f4b9a7d19d8150800000000000000
+      internalID: 5876513444239570472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante pied monde rose_18
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 165
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2b69bf024b65ee70800000000000000
+      internalID: 9143832549921483562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante pied monde rose_19
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 166
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: febf60d02bf0fbee0800000000000000
+      internalID: -1243257714733810705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      plante pied monde rose_0: -1659861554207216841
+      plante pied monde rose_1: -9102973279762216752
+      plante pied monde rose_10: -1324622617052607713
+      plante pied monde rose_11: -8943933082286706098
+      plante pied monde rose_12: -4672746250578805144
+      plante pied monde rose_13: 1203686981931470211
+      plante pied monde rose_14: 6968620210218739699
+      plante pied monde rose_15: 2408691954042583309
+      plante pied monde rose_16: -4232013475625376385
+      plante pied monde rose_17: 5876513444239570472
+      plante pied monde rose_18: 9143832549921483562
+      plante pied monde rose_19: -1243257714733810705
+      plante pied monde rose_2: 885794211715451998
+      plante pied monde rose_3: 518254979776110584
+      plante pied monde rose_4: 437415803264046666
+      plante pied monde rose_5: -8751932626820847993
+      plante pied monde rose_6: -5678570583115317259
+      plante pied monde rose_7: 855149279496730116
+      plante pied monde rose_8: 5096095650692653803
+      plante pied monde rose_9: -563796031328285897
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
