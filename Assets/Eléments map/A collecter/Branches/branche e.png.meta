@@ -1,0 +1,1638 @@
+fileFormatVersion: 2
+guid: 3642244b1029c0643b29f978e52d0392
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4306191140234167248
+    second: branche e_0
+  - first:
+      213: 2140275890927805942
+    second: branche e_1
+  - first:
+      213: 317497359061924434
+    second: branche e_2
+  - first:
+      213: -472928628537412662
+    second: branche e_3
+  - first:
+      213: -5746036022081938673
+    second: branche e_4
+  - first:
+      213: 6635966963994365611
+    second: branche e_5
+  - first:
+      213: 367447170731078757
+    second: branche e_6
+  - first:
+      213: 2940252068526852449
+    second: branche e_7
+  - first:
+      213: -7715463481555529966
+    second: branche e_8
+  - first:
+      213: -3944350941218000216
+    second: branche e_9
+  - first:
+      213: 7875449003211923537
+    second: branche e_10
+  - first:
+      213: 7340510942958618846
+    second: branche e_11
+  - first:
+      213: -1197269529323190631
+    second: branche e_12
+  - first:
+      213: -1143529943679055961
+    second: branche e_13
+  - first:
+      213: 8417678258323666939
+    second: branche e_14
+  - first:
+      213: 9212061102560748608
+    second: branche e_15
+  - first:
+      213: 1103060910889277224
+    second: branche e_16
+  - first:
+      213: -6892282607778951140
+    second: branche e_17
+  - first:
+      213: -6857703974739230789
+    second: branche e_18
+  - first:
+      213: -4828495580830434340
+    second: branche e_19
+  - first:
+      213: -8808431113950118357
+    second: branche e_20
+  - first:
+      213: 7313853010067851922
+    second: branche e_21
+  - first:
+      213: -28335372954942428
+    second: branche e_22
+  - first:
+      213: 2328761373757733412
+    second: branche e_23
+  - first:
+      213: -972383191500798890
+    second: branche e_24
+  - first:
+      213: 4076440771125168373
+    second: branche e_25
+  - first:
+      213: 6434044671205780200
+    second: branche e_26
+  - first:
+      213: -5090687305173668002
+    second: branche e_27
+  - first:
+      213: -7552326908006497006
+    second: branche e_28
+  - first:
+      213: -5326626543659351195
+    second: branche e_29
+  - first:
+      213: -8186326383666675031
+    second: branche e_30
+  - first:
+      213: -7098179735316247379
+    second: branche e_31
+  - first:
+      213: 2314972896441081226
+    second: branche e_32
+  - first:
+      213: 7850721187309576443
+    second: branche e_33
+  - first:
+      213: -5286140120924809797
+    second: branche e_34
+  - first:
+      213: 4346445364288563716
+    second: branche e_35
+  - first:
+      213: 8417462202149306478
+    second: branche e_36
+  - first:
+      213: 6720526096057691123
+    second: branche e_37
+  - first:
+      213: -501539836680330980
+    second: branche e_38
+  - first:
+      213: -782009771656065930
+    second: branche e_39
+  - first:
+      213: 7219577753999664428
+    second: branche e_40
+  - first:
+      213: 3465654213726211764
+    second: branche e_41
+  - first:
+      213: -7308819575197222823
+    second: branche e_42
+  - first:
+      213: 8702727639105923717
+    second: branche e_43
+  - first:
+      213: -8601063621015543545
+    second: branche e_44
+  - first:
+      213: -7651648177676724017
+    second: branche e_45
+  - first:
+      213: 4726482825987908024
+    second: branche e_46
+  - first:
+      213: -8915101657292122372
+    second: branche e_47
+  - first:
+      213: -8167359259665010543
+    second: branche e_48
+  - first:
+      213: -1316121644642326091
+    second: branche e_49
+  - first:
+      213: -7347351450150891989
+    second: branche e_50
+  - first:
+      213: -5960396997773634831
+    second: branche e_51
+  - first:
+      213: 5890879633893451412
+    second: branche e_52
+  - first:
+      213: 7951988765186582029
+    second: branche e_53
+  - first:
+      213: 358013435948072088
+    second: branche e_54
+  - first:
+      213: 8475469992710850274
+    second: branche e_55
+  - first:
+      213: 6218120100552814120
+    second: branche e_56
+  - first:
+      213: 575313951920150261
+    second: branche e_57
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: branche e_0
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 390
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d38790e60aa2cb30800000000000000
+      internalID: 4306191140234167248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 382
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f5a5184599c3bd10800000000000000
+      internalID: 2140275890927805942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 402
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25ab2087a2af76400800000000000000
+      internalID: 317497359061924434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_3
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 402
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac33ae30be1df69f0800000000000000
+      internalID: -472928628537412662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_4
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 407
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0b15358eaaf140b0800000000000000
+      internalID: -5746036022081938673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_5
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 399
+        width: 40
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bae8c1e7bc0b71c50800000000000000
+      internalID: 6635966963994365611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_6
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 376
+        width: 91
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 564f525414f691500800000000000000
+      internalID: 367447170731078757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_7
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 379
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16986ae9dafddc820800000000000000
+      internalID: 2940252068526852449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_8
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 376
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21f426087da2de490800000000000000
+      internalID: -7715463481555529966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_9
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 370
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a2393f87b9d249c0800000000000000
+      internalID: -3944350941218000216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_10
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 370
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 150a62b74273b4d60800000000000000
+      internalID: 7875449003211923537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_11
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 369
+        width: 36
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed88ae89fcbbed560800000000000000
+      internalID: 7340510942958618846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_12
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 18
+        width: 254
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 996ca4cd4b1726fe0800000000000000
+      internalID: -1197269529323190631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_13
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 362
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a7ccfc239d5120f0800000000000000
+      internalID: -1143529943679055961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_14
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 365
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf739e4f6c991d470800000000000000
+      internalID: 8417678258323666939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_15
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 368
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 044a353e3c0d7df70800000000000000
+      internalID: 9212061102560748608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_16
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 362
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8279c2fdd0cde4f00800000000000000
+      internalID: 1103060910889277224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_17
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 358
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c109bbf2c71b950a0800000000000000
+      internalID: -6892282607778951140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_18
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 355
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbf32e2919a84d0a0800000000000000
+      internalID: -6857703974739230789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_19
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 358
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdbfe090adcbdfcb0800000000000000
+      internalID: -4828495580830434340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_20
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 357
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2e3188229a22c580800000000000000
+      internalID: -8808431113950118357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_21
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 352
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29a048cef86008560800000000000000
+      internalID: 7313853010067851922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_22
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 359
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4244170e0255b9ff0800000000000000
+      internalID: -28335372954942428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_23
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 344
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42afa71912c615020800000000000000
+      internalID: 2328761373757733412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_24
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 344
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 654c805a3a66182f0800000000000000
+      internalID: -972383191500798890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_25
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 348
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f8c5de884d629830800000000000000
+      internalID: 4076440771125168373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_26
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 316
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ea27381a815a4950800000000000000
+      internalID: 6434044671205780200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_27
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 251
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5f68881ede3a59b0800000000000000
+      internalID: -5090687305173668002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_28
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 238
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21506ace0beb03790800000000000000
+      internalID: -7552326908006497006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_29
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 215
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 563840651650416b0800000000000000
+      internalID: -5326626543659351195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_30
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 187
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a2c32ee683546e80800000000000000
+      internalID: -8186326383666675031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_31
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 143
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dac499473233e7d90800000000000000
+      internalID: -7098179735316247379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_32
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 137
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8d1705859f602020800000000000000
+      internalID: 2314972896441081226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_33
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 86
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf06830335d53fc60800000000000000
+      internalID: 7850721187309576443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_34
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 86
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb51653319bd3a6b0800000000000000
+      internalID: -5286140120924809797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_35
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 72
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40a2016c70da15c30800000000000000
+      internalID: 4346445364288563716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_36
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 44
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6003657645d0d470800000000000000
+      internalID: 8417462202149306478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_37
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 50
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fbe243a0ea144d50800000000000000
+      internalID: 6720526096057691123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_38
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 50
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1126f10d2c2a09f0800000000000000
+      internalID: -501539836680330980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_39
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 54
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67c4e85814eb525f0800000000000000
+      internalID: -782009771656065930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_40
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 36
+        width: 33
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c25667f57b7113460800000000000000
+      internalID: 7219577753999664428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_41
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 54
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4be8c73452a781030800000000000000
+      internalID: 3465654213726211764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_42
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 44
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 958b2f4f15bd19a90800000000000000
+      internalID: -7308819575197222823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_43
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 18
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58ae1e1cdac46c870800000000000000
+      internalID: 8702727639105923717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_44
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 36
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70165d20532e2a880800000000000000
+      internalID: -8601063621015543545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_45
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 39
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc85057c582efc590800000000000000
+      internalID: -7651648177676724017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_46
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 42
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b16ef79617d79140800000000000000
+      internalID: 4726482825987908024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_47
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 29
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf65b94e642374480800000000000000
+      internalID: -8915101657292122372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_48
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 40
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1907bae9606b7ae80800000000000000
+      internalID: -8167359259665010543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_49
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 42
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b924e956523cbde0800000000000000
+      internalID: -1316121644642326091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_50
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 29
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2e0ec5b8c6f80a90800000000000000
+      internalID: -7347351450150891989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_51
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 34
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f2d563928a684da0800000000000000
+      internalID: -5960396997773634831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_52
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 18
+        width: 37
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4966dc8d0db90c150800000000000000
+      internalID: 5890879633893451412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_53
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 33
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d06e7d686a32b5e60800000000000000
+      internalID: 7951988765186582029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_54
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 18
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89c708ab25be7f400800000000000000
+      internalID: 358013435948072088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_55
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 21
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e6430cad0bee9570800000000000000
+      internalID: 8475469992710850274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_56
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 21
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82eaa2459433b4650800000000000000
+      internalID: 6218120100552814120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche e_57
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 26
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f6d68abdfcebf700800000000000000
+      internalID: 575313951920150261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      branche e_0: 4306191140234167248
+      branche e_1: 2140275890927805942
+      branche e_10: 7875449003211923537
+      branche e_11: 7340510942958618846
+      branche e_12: -1197269529323190631
+      branche e_13: -1143529943679055961
+      branche e_14: 8417678258323666939
+      branche e_15: 9212061102560748608
+      branche e_16: 1103060910889277224
+      branche e_17: -6892282607778951140
+      branche e_18: -6857703974739230789
+      branche e_19: -4828495580830434340
+      branche e_2: 317497359061924434
+      branche e_20: -8808431113950118357
+      branche e_21: 7313853010067851922
+      branche e_22: -28335372954942428
+      branche e_23: 2328761373757733412
+      branche e_24: -972383191500798890
+      branche e_25: 4076440771125168373
+      branche e_26: 6434044671205780200
+      branche e_27: -5090687305173668002
+      branche e_28: -7552326908006497006
+      branche e_29: -5326626543659351195
+      branche e_3: -472928628537412662
+      branche e_30: -8186326383666675031
+      branche e_31: -7098179735316247379
+      branche e_32: 2314972896441081226
+      branche e_33: 7850721187309576443
+      branche e_34: -5286140120924809797
+      branche e_35: 4346445364288563716
+      branche e_36: 8417462202149306478
+      branche e_37: 6720526096057691123
+      branche e_38: -501539836680330980
+      branche e_39: -782009771656065930
+      branche e_4: -5746036022081938673
+      branche e_40: 7219577753999664428
+      branche e_41: 3465654213726211764
+      branche e_42: -7308819575197222823
+      branche e_43: 8702727639105923717
+      branche e_44: -8601063621015543545
+      branche e_45: -7651648177676724017
+      branche e_46: 4726482825987908024
+      branche e_47: -8915101657292122372
+      branche e_48: -8167359259665010543
+      branche e_49: -1316121644642326091
+      branche e_5: 6635966963994365611
+      branche e_50: -7347351450150891989
+      branche e_51: -5960396997773634831
+      branche e_52: 5890879633893451412
+      branche e_53: 7951988765186582029
+      branche e_54: 358013435948072088
+      branche e_55: 8475469992710850274
+      branche e_56: 6218120100552814120
+      branche e_57: 575313951920150261
+      branche e_6: 367447170731078757
+      branche e_7: 2940252068526852449
+      branche e_8: -7715463481555529966
+      branche e_9: -3944350941218000216
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

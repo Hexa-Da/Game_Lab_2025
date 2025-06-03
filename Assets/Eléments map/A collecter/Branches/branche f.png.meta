@@ -1,0 +1,1066 @@
+fileFormatVersion: 2
+guid: e35f9cdea13bbc14192a445987c36b3e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6718383392535043113
+    second: branche f_0
+  - first:
+      213: 6718856889680286560
+    second: branche f_1
+  - first:
+      213: 8910821548910171280
+    second: branche f_2
+  - first:
+      213: 2812894583964309394
+    second: branche f_3
+  - first:
+      213: 6220545283504249442
+    second: branche f_4
+  - first:
+      213: 2760384782857092016
+    second: branche f_5
+  - first:
+      213: -300307768257696413
+    second: branche f_6
+  - first:
+      213: 4227457200416441260
+    second: branche f_7
+  - first:
+      213: 4537441113337955880
+    second: branche f_8
+  - first:
+      213: 714801086224911649
+    second: branche f_9
+  - first:
+      213: -565822474119946673
+    second: branche f_10
+  - first:
+      213: -5760846283538579186
+    second: branche f_11
+  - first:
+      213: 7790613397591038286
+    second: branche f_12
+  - first:
+      213: -5030916332736178207
+    second: branche f_13
+  - first:
+      213: 452773684959283977
+    second: branche f_14
+  - first:
+      213: -4103796129819958493
+    second: branche f_15
+  - first:
+      213: -5894135228729194472
+    second: branche f_16
+  - first:
+      213: 1430644565265000674
+    second: branche f_17
+  - first:
+      213: 2111687695292379935
+    second: branche f_18
+  - first:
+      213: 3669327264103557926
+    second: branche f_19
+  - first:
+      213: -2699144695302953088
+    second: branche f_20
+  - first:
+      213: 8532033989438132331
+    second: branche f_21
+  - first:
+      213: 3959242228931159047
+    second: branche f_22
+  - first:
+      213: 5317760215686466783
+    second: branche f_23
+  - first:
+      213: 8588500313227891285
+    second: branche f_24
+  - first:
+      213: -6883710740109189978
+    second: branche f_25
+  - first:
+      213: 3035427014449833848
+    second: branche f_26
+  - first:
+      213: -890059493545424363
+    second: branche f_27
+  - first:
+      213: 6207226611360457025
+    second: branche f_28
+  - first:
+      213: 4991694715011858793
+    second: branche f_29
+  - first:
+      213: -8769192420714566153
+    second: branche f_30
+  - first:
+      213: 5950421624426594503
+    second: branche f_31
+  - first:
+      213: 6487696974326192345
+    second: branche f_32
+  - first:
+      213: -7836430301254511616
+    second: branche f_33
+  - first:
+      213: 8272681829527441968
+    second: branche f_34
+  - first:
+      213: -8147010771851465740
+    second: branche f_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: branche f_0
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 8
+        width: 362
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d3a01766e183c2a0800000000000000
+      internalID: -6718383392535043113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche f_1
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 315
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 063541e3ebc2e3d50800000000000000
+      internalID: 6718856889680286560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche f_2
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 316
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 094dfa7bcf899ab70800000000000000
+      internalID: 8910821548910171280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche f_3
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 321
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29710d388b8690720800000000000000
+      internalID: 2812894583964309394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche f_4
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 314
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26a908c3af0d35650800000000000000
+      internalID: 6220545283504249442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche f_5
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 296
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bb3799b55bde4620800000000000000
+      internalID: 2760384782857092016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche f_6
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 320
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36da5b50da715dbf0800000000000000
+      internalID: -300307768257696413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche f_7
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 293
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca34dfdfce1faaa30800000000000000
+      internalID: 4227457200416441260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche f_8
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 261
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82603c5f6aa38fe30800000000000000
+      internalID: 4537441113337955880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche f_9
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 271
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12dcf7dfccb7be900800000000000000
+      internalID: 714801086224911649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche f_10
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 261
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4ed528257bc528f0800000000000000
+      internalID: -565822474119946673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche f_11
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 193
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e01cd00d3dc5d00b0800000000000000
+      internalID: -5760846283538579186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche f_12
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 180
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4910d1db91dd1c60800000000000000
+      internalID: 7790613397591038286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche f_13
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 175
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e79c8410489e2ab0800000000000000
+      internalID: -5030916332736178207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche f_14
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 166
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90b84af7443984600800000000000000
+      internalID: 452773684959283977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche f_15
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 134
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 323657ba9236c07c0800000000000000
+      internalID: -4103796129819958493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche f_16
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 134
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8180b79ec33d33ea0800000000000000
+      internalID: -5894135228729194472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche f_17
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 132
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e8a678f6abaad310800000000000000
+      internalID: 1430644565265000674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche f_18
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 111
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f13377a45c83e4d10800000000000000
+      internalID: 2111687695292379935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche f_19
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 81
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62b6c8da4b11ce230800000000000000
+      internalID: 3669327264103557926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche f_20
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 77
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08766174336ba8ad0800000000000000
+      internalID: -2699144695302953088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche f_21
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 79
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b60d40075bfd76670800000000000000
+      internalID: 8532033989438132331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche f_22
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 75
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 704ea2b84dd02f630800000000000000
+      internalID: 3959242228931159047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche f_23
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 63
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdc42b0ddba7cc940800000000000000
+      internalID: 5317760215686466783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche f_24
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 54
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5529743f78b703770800000000000000
+      internalID: 8588500313227891285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche f_25
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 53
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ac1047ad852870a0800000000000000
+      internalID: -6883710740109189978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche f_26
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 53
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87728e989c0002a20800000000000000
+      internalID: 3035427014449833848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche f_27
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 43
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51ac24a3b9fd5a3f0800000000000000
+      internalID: -890059493545424363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche f_28
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 38
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 141ed7a37bf742650800000000000000
+      internalID: 6207226611360457025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche f_29
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 29
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9610a7b65ef064540800000000000000
+      internalID: 4991694715011858793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche f_30
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 24
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fda24c54f19d4680800000000000000
+      internalID: -8769192420714566153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche f_31
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 15
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c000c3d0f4249250800000000000000
+      internalID: 5950421624426594503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche f_32
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 9
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d8d61d560ee80a50800000000000000
+      internalID: 6487696974326192345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche f_33
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 15
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0041e9209286f3390800000000000000
+      internalID: -7836430301254511616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche f_34
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 8
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 032dfcc1b487ec270800000000000000
+      internalID: 8272681829527441968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branche f_35
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 8
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fb23822ed000fe80800000000000000
+      internalID: -8147010771851465740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      branche f_0: -6718383392535043113
+      branche f_1: 6718856889680286560
+      branche f_10: -565822474119946673
+      branche f_11: -5760846283538579186
+      branche f_12: 7790613397591038286
+      branche f_13: -5030916332736178207
+      branche f_14: 452773684959283977
+      branche f_15: -4103796129819958493
+      branche f_16: -5894135228729194472
+      branche f_17: 1430644565265000674
+      branche f_18: 2111687695292379935
+      branche f_19: 3669327264103557926
+      branche f_2: 8910821548910171280
+      branche f_20: -2699144695302953088
+      branche f_21: 8532033989438132331
+      branche f_22: 3959242228931159047
+      branche f_23: 5317760215686466783
+      branche f_24: 8588500313227891285
+      branche f_25: -6883710740109189978
+      branche f_26: 3035427014449833848
+      branche f_27: -890059493545424363
+      branche f_28: 6207226611360457025
+      branche f_29: 4991694715011858793
+      branche f_3: 2812894583964309394
+      branche f_30: -8769192420714566153
+      branche f_31: 5950421624426594503
+      branche f_32: 6487696974326192345
+      branche f_33: -7836430301254511616
+      branche f_34: 8272681829527441968
+      branche f_35: -8147010771851465740
+      branche f_4: 6220545283504249442
+      branche f_5: 2760384782857092016
+      branche f_6: -300307768257696413
+      branche f_7: 4227457200416441260
+      branche f_8: 4537441113337955880
+      branche f_9: 714801086224911649
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
