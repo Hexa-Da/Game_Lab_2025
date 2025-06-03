@@ -1,8 +1,8 @@
 using UnityEngine;
 using TMPro;
 
-// Rattaché au canvas d'interaction
-// Script qui gère le text a afficher en fonction de l'objet avec lequel on veux interagir
+// RattachÃ© au canvas d'interaction
+// Script qui gÃ¨re le text a afficher en fonction de l'objet avec lequel on veux interagir
 public class HUDController : MonoBehaviour
 {
     public static HUDController instance;
@@ -16,8 +16,8 @@ public class HUDController : MonoBehaviour
     [SerializeField] private string talkMessage = "Parler (F)";
     
     [Header("Position")]
-    [SerializeField] private float pickupOffset = 1.0f; // 1 unité monde au-dessus de l'objet
-    [SerializeField] private float npcOffset = 2.0f; // 2 unités monde au-dessus du NPC
+    [SerializeField] private float pickupOffset = 1.0f; // 1 unitÃ© monde au-dessus de l'objet
+    [SerializeField] private float npcOffset = 2.0f; // 2 unitÃ©s monde au-dessus du NPC
 
     private void Awake()
     {
@@ -26,27 +26,30 @@ public class HUDController : MonoBehaviour
         interactionText = interactionUI.GetComponentInChildren<TMP_Text>();
     }
 
+  
+
     public void DisableInteraction()
     {
         interactionUI.SetActive(false);
     }
 
-    // on active l'UI d'interaction en vérifiant si c'est un pnj ou un objet ramassable
+    // on active l'UI d'interaction en vÃ©rifiant si c'est un pnj ou un objet ramassable
     public void EnableInteraction(Vector3 worldPosition, bool isNPC)
     {   
         interactionUI.SetActive(true);
-
+    
         // on change le texte en fonction de l'interaction
         interactionText.text = isNPC ? talkMessage : pickupMessage;
         
         // Configurer le RectTransform pour un positionnement correct
         RectTransform rectTransform = interactionUI.GetComponent<RectTransform>();
+        
         if (rectTransform != null)
         {
-            // Positionner directement en coordonnées monde avec l'offset approprié
+            // Positionner directement en coordonnÃ©es monde avec l'offset appropriÃ©
             rectTransform.position = new Vector3(
                 worldPosition.x,
-                worldPosition.y + (isNPC ? npcOffset : pickupOffset), // Utiliser l'offset approprié
+                worldPosition.y + (isNPC ? npcOffset : pickupOffset), // Utiliser l'offset appropriÃ©
                 worldPosition.z
             );
         }

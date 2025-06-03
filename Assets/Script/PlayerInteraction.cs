@@ -1,7 +1,8 @@
+using System.Diagnostics;
 using UnityEngine;
 
-// Rattaché au player
-// Script qui detecte la possibilité d'interaction avec les objets
+// RattachÃ© au player
+// Script qui detecte la possibilitÃ© d'interaction avec les objets
 public class CheckInteraction2D : MonoBehaviour
 {
     [Header("Config")]
@@ -11,6 +12,7 @@ public class CheckInteraction2D : MonoBehaviour
     [SerializeField] private LayerMask interactableLayer; 
 
     private Interaction currentInteractable;
+    private NPCInteraction currentNPCInteractable;
     private Vector2 direction;
 
     void Update()
@@ -21,9 +23,15 @@ public class CheckInteraction2D : MonoBehaviour
         UpdateDirection(); 
         CheckInteraction();
 
-        if(currentInteractable != null && Input.GetKeyDown(KeyCode.F))
+        if ((currentNPCInteractable != null) && Input.GetKeyDown(KeyCode.F))
+        {
+            // si on appuie sur F, la fonction Interact() de la classe Interaction est appelÃ©e
+            currentNPCInteractable.Interact();
+        }
+
+        else if((currentInteractable != null ) && Input.GetKeyDown(KeyCode.F))
         {   
-            // si on appuie sur F, la fonction Interact() de la classe Interaction est appelée
+            // si on appuie sur F, la fonction Interact() de la classe Interaction est appelÃ©e
             currentInteractable.Interact();
         }
     }
@@ -67,14 +75,14 @@ public class CheckInteraction2D : MonoBehaviour
         // on lance des raycast dans toutes les directions
         foreach (Vector2 dir in directions)
         {
-            RaycastHit2D hit = Physics2D.Raycast(playerTransform.position, direction, playerReach, interactableLayer);
+            RaycastHit2D hit = Physics2D.Raycast(playerTransform.position, dir, playerReach, interactableLayer);
 
             if (hit.collider != null && hit.collider.CompareTag("Interactable"))
             {
-                // on récupère le script Interaction de l'objet avec lequel on peut interagir
+                // on rÃ©cupÃ¨re le script Interaction de l'objet avec lequel on peut interagir
                 Interaction newInteractable = hit.collider.GetComponent<Interaction>();
 
-                // si on a déjà un objet avec lequel on peut interagir et que c'est un autre objet, on le désactive
+                // si on a dÃ©jÃ  un objet avec lequel on peut interagir et que c'est un autre objet, on le dÃ©sactive
                 if(currentInteractable && newInteractable != currentInteractable)
                 {
                     DisableCurrentInteractable();
@@ -86,14 +94,37 @@ public class CheckInteraction2D : MonoBehaviour
                     SetNewCurrentInteractable(newInteractable);
                 }
             }
+            //else
+            //{
+            //    DisableCurrentInteractable();
+            //}
+
+            else if (hit.collider != null && hit.collider.CompareTag("NPCInteractable"))
+            {
+                // on rÃ©cupÃ¨re le script NPCInteraction de l'objet avec lequel on peut interagir
+                NPCInteraction newNPCInteractable = hit.collider.GetComponent<NPCInteraction>();
+
+                // si on a dÃ©jÃ  un objet avec lequel on peut interagir et que c'est un autre objet, on le dÃ©sactive
+                if (currentNPCInteractable && newNPCInteractable != currentNPCInteractable)
+                {
+                    DisableCurrentNPCInteractable();
+                }
+
+                // si l'objet avec lequel on peut interagir est actif, on l'active
+                if (newNPCInteractable.enabled)
+                {
+                    SetNewCurrentNPCInteractable(newNPCInteractable);
+                }
+            }
             else
             {
+                DisableCurrentNPCInteractable();
                 DisableCurrentInteractable();
             }
         }
     }
 
-    // pour visualiser les raycast dans la scène
+    // pour visualiser les raycast dans la scÃ¨ne
     void OnDrawGizmos()
     {
         Vector2[] directions = 
@@ -133,10 +164,19 @@ public class CheckInteraction2D : MonoBehaviour
         currentInteractable.EnableOutline();
         
         // Afficher le message au-dessus de l'objet
-        HUDController.instance.EnableInteraction(currentInteractable.transform.position, currentInteractable.isNPC);
+        HUDController.instance.EnableInteraction(currentInteractable.transform.position, false);
+        
     }
 
+    void SetNewCurrentNPCInteractable(NPCInteraction newNPCInteractable)
+    {
+        currentNPCInteractable = newNPCInteractable;
+        currentNPCInteractable.EnableOutline();
 
+        // Afficher le message au-dessus de l'objet
+        HUDController.instance.EnableInteraction(currentNPCInteractable.transform.position, true);
+            
+    }
     void DisableCurrentInteractable()
     {
         HUDController.instance.DisableInteraction();
@@ -145,6 +185,16 @@ public class CheckInteraction2D : MonoBehaviour
             currentInteractable.DisableOutline();
             // on resret la variable currentInteractable pour ne pas avoir d'objet avec lequel on peut interagir
             currentInteractable = null;
+        }
+    }
+    void DisableCurrentNPCInteractable()
+    {
+        HUDController.instance.DisableInteraction();
+        if (currentNPCInteractable)
+        {
+            currentNPCInteractable.DisableOutline();
+            // on resret la variable currentInteractable pour ne pas avoir d'objet avec lequel on peut interagir
+            currentNPCInteractable = null;
         }
     }
 

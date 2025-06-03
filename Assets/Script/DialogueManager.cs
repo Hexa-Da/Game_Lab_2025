@@ -3,15 +3,15 @@ using UnityEngine.UI;
 using TMPro;
 using System.Collections.Generic;
 
-// Rattaché au dialogueManager
-// Script qui gère la bulle de dialogue et les dialogues
+// RattachÃ© au dialogueManager
+// Script qui gÃ¨re la bulle de dialogue et les dialogues
 public class DialogueManager : MonoBehaviour
 {
     public static DialogueManager instance;
 
     [Header("Configuration bulle de dialogue")]
     [SerializeField] private GameObject dialogueBubblePrefab;
-    private float bubbleOffsetPercent = 0.2f; // Distance au-dessus du PNJ en unités monde
+    private float bubbleOffsetPercent = 0.2f; // Distance au-dessus du PNJ en unitÃ©s monde
     private Transform bubbleTarget; // defini la position de la bulle de dialogue
     private GameObject activeBubble;
 
@@ -37,12 +37,12 @@ public class DialogueManager : MonoBehaviour
         public string text;
         public List<DialogueChoice> choices; // Liste des choix possibles
 
-        // vérifie si la ligne de dialogue a des choix 
+        // vÃ©rifie si la ligne de dialogue a des choix 
         public bool HasChoices => choices != null && choices.Count > 0; 
     }
 
     [System.Serializable]
-    public class DialogueChoice // espace de defintion des choix de réponse
+    public class DialogueChoice // espace de defintion des choix de rÃ©ponse
     {
         [TextArea(1, 2)] // defini la taille de la zone de texte pour le choix
         public string choiceText;  // Texte du choix
@@ -54,7 +54,7 @@ public class DialogueManager : MonoBehaviour
     // Dictionnaire des dialogues en fonction de l'id puis de la ligne de dialogue
     private Dictionary<string, DialogueLine> dialogueDatabase = new Dictionary<string, DialogueLine>();
     
-    // État actuel du dialogue
+    // Ã‰tat actuel du dialogue
     private TMP_Text currentBubbleText;
     private NPCDialogue currentDialogue;
     private DialogueLine currentLine;
@@ -99,37 +99,37 @@ public class DialogueManager : MonoBehaviour
         currentLine = currentDialogue.dialogueLines[0];
         bubbleTarget = npcTransform;
 
-        // Créer la bulle de dialogue
+        // CrÃ©er la bulle de dialogue
         CreateDialogueBubble();
         DisplayCurrentLine();    
     }
 
     private void CreateDialogueBubble()
     {
-        // Détruire la bulle précédente si elle existe
+        // DÃ©truire la bulle prÃ©cÃ©dente si elle existe
         if (activeBubble != null)
             Destroy(activeBubble);
 
-        // Créer la bulle dans le Canvas
+        // CrÃ©er la bulle dans le Canvas
         Canvas canvas = FindObjectOfType<Canvas>();
         if (canvas == null) return;
 
-        // Créer un nouveau GameObject parent pour la bulle
+        // CrÃ©er un nouveau GameObject parent pour la bulle
         GameObject bubbleParent = new GameObject("DialogueBubbleParent");
         bubbleParent.transform.SetParent(canvas.transform, false);
         
-        // Ajouter un CanvasGroup pour contrôler l'ordre de rendu
+        // Ajouter un CanvasGroup pour contrÃ´ler l'ordre de rendu
         bubbleCanvasGroup = bubbleParent.AddComponent<CanvasGroup>();
         bubbleCanvasGroup.blocksRaycasts = true;
         bubbleCanvasGroup.interactable = true;
 
-        // Déplacer le parent au début de la hiérarchie pour qu'il soit rendu en premier
+        // DÃ©placer le parent au dÃ©but de la hiÃ©rarchie pour qu'il soit rendu en premier
         bubbleParent.transform.SetAsFirstSibling();
 
         activeBubble = Instantiate(dialogueBubblePrefab, bubbleParent.transform);
         currentBubbleText = activeBubble.GetComponentInChildren<TMP_Text>();
 
-        // Trouver le ChoicesContainer dans la bulle créée
+        // Trouver le ChoicesContainer dans la bulle crÃ©Ã©e
         choicesContainer = activeBubble.transform.Find("ChoicesContainer").GetComponent<RectTransform>();
 
         if (currentBubbleText == null || choicesContainer == null)
@@ -138,7 +138,7 @@ public class DialogueManager : MonoBehaviour
             return;
         }
 
-        // Mettre à jour l'interactivité en fonction de l'état du menu
+        // Mettre Ã  jour l'interactivitÃ© en fonction de l'Ã©tat du menu
         UpdateBubbleInteractivity();
 
         PositionBubble();
@@ -157,10 +157,10 @@ public class DialogueManager : MonoBehaviour
     {
         if (bubbleTarget == null || activeBubble == null) return;
 
-        // Convertir la position monde du PNJ en position écran
+        // Convertir la position monde du PNJ en position Ã©cran
         Vector3 screenPos = Camera.main.WorldToScreenPoint(bubbleTarget.position);
         
-        // Vérifier si le point est devant la caméra
+        // VÃ©rifier si le point est devant la camÃ©ra
         if (screenPos.z < 0)
         {
             activeBubble.SetActive(false);
@@ -169,10 +169,10 @@ public class DialogueManager : MonoBehaviour
         
         activeBubble.SetActive(true);
         
-        // Calculer l'offset en fonction de la hauteur de l'écran
-        float offset = Screen.height * bubbleOffsetPercent; // Convertir le pourcentage en décimal
+        // Calculer l'offset en fonction de la hauteur de l'Ã©cran
+        float offset = Screen.height * bubbleOffsetPercent; // Convertir le pourcentage en dÃ©cimal
         
-        // Appliquer la position à la bulle UI
+        // Appliquer la position Ã  la bulle UI
         RectTransform rectTransform = activeBubble.GetComponent<RectTransform>();
         Vector3 newPosition = new Vector3(screenPos.x, screenPos.y + offset, 0);
         rectTransform.position = newPosition;
@@ -186,7 +186,7 @@ public class DialogueManager : MonoBehaviour
             return;
         }
 
-        // Mettre à jour le texte
+        // Mettre Ã  jour le texte
         currentBubbleText.text = currentLine.text;
 
         // Afficher les choix s'il y en a
@@ -211,7 +211,7 @@ public class DialogueManager : MonoBehaviour
 
         foreach (var choice in choices)
         {
-            // Créer un bouton pour chaque choix
+            // CrÃ©er un bouton pour chaque choix
             GameObject choiceButton = Instantiate(choiceButtonPrefab, choicesContainer);
             RectTransform rectTransform = choiceButton.GetComponent<RectTransform>();
             
@@ -221,7 +221,7 @@ public class DialogueManager : MonoBehaviour
 
             Button button = choiceButton.GetComponent<Button>();
 
-            // Utiliser une variable locale pour éviter les problèmes de closure
+            // Utiliser une variable locale pour Ã©viter les problÃ¨mes de closure
             var currentChoice = choice;
             button.onClick.RemoveAllListeners(); // Nettoyer les listeners existants
             button.onClick.AddListener(() => {
@@ -282,7 +282,7 @@ public class DialogueManager : MonoBehaviour
         
         if (activeBubble != null)
         {
-            // Détruire le parent de la bulle
+            // DÃ©truire le parent de la bulle
             if (activeBubble.transform.parent != null)
             {
                 Destroy(activeBubble.transform.parent.gameObject);

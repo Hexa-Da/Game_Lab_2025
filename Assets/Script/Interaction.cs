@@ -4,8 +4,8 @@ using UnityEngine.Rendering.Universal;
 using TMPro;
 
 
-// Rattaché à chaque objet avec lequel on peut interagir
-// Script qui gère l'interaction avec les objets
+// RattachÃ© Ã  chaque objet avec lequel on peut interagir
+// Script qui gÃ¨re l'interaction avec les objets
 public class Interaction : MonoBehaviour
 {
     Outline outline;
@@ -33,9 +33,9 @@ public class Interaction : MonoBehaviour
 
     void Start()
     {
-        outline = GetComponent<Outline>(); // on recupère le script outline
-        DisableOutline(); // et on le désactive au début
-        m_BlurGameObject = GameObject.Find("BlurVolume"); // o recupere le component qui gere les effets de flou
+        outline = GetComponent<Outline>(); // on recupÃ¨re le script outline
+        DisableOutline(); // et on le dÃ©sactive au dÃ©but
+        m_BlurGameObject = GameObject.Find("BlurVolume"); // recupere le component qui gere les effets de flou
         m_ChromaticAberration = m_BlurGameObject.GetComponent<ChromaticAberration>();
         m_BlurVolume = m_BlurGameObject.GetComponent<CustomVolumeComponent>();
         m_Vignette = m_BlurGameObject.GetComponent<Vignette>();
@@ -78,7 +78,7 @@ public class Interaction : MonoBehaviour
         Debug.Log("La il adapte le flou normalement");
     //Pour ajuster le flou il faut:
     // - Relever la valeur du compteur de fragment
-    // - Deduire les valeurs à donner à chaque paramètre des effets (On a pas encore choisi les valeurs)
+    // - Deduire les valeurs Ã  donner Ã  chaque paramÃ¨tre des effets (On a pas encore choisi les valeurs)
     // - update les valeurs
     
     }
