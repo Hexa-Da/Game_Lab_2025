@@ -84,4 +84,31 @@ public class MenuController : MonoBehaviour
         }
     }
 
+    public void StartNewGame()
+    {
+        // Réinitialiser les compteurs
+        Interaction.SetStickCount(0);
+        Interaction.SetFragmentCount(0);
+        
+        // Charger la scène de jeu
+        ChangeScene("Scene"); // Remplacez "Game" par le nom de votre scène de jeu
+    }
+
+    public void LoadSaveGame()
+    {
+        if (SaveSystem.Instance.HasSaveFile())
+        {
+            bool success = SaveSystem.Instance.LoadGame();
+            if (!success)
+            {
+                Debug.LogError("Failed to load save game. Starting new game instead.");
+                StartNewGame();
+            }
+        }
+        else
+        {
+            Debug.LogWarning("No save file found. Starting new game instead.");
+            StartNewGame();
+        }
+    }
 }

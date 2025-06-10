@@ -40,6 +40,9 @@ public class MenuInGame : MonoBehaviour
     [SerializeField] public TMP_Text stickCounterText;
     [SerializeField] public TMP_Text fragmentCounterText;
 
+    [Header("Save Button")]
+    [SerializeField] private Button saveButton;
+
     private void Awake()
     {
         instance = this;
@@ -71,6 +74,12 @@ public class MenuInGame : MonoBehaviour
         if (optionCloseButton != null)
         {
             optionCloseButton.onClick.AddListener(CloseOption);
+        }
+
+        // Configuration du bouton de sauvegarde
+        if (saveButton != null)
+        {
+            saveButton.onClick.AddListener(SaveGame);
         }
     }
 
@@ -140,6 +149,7 @@ public class MenuInGame : MonoBehaviour
         menuInGame.SetActive(false);
         option.SetActive(false);
         Time.timeScale = 1;
+        AudioListener.pause = false;
         isPaused = false;
         inOption = false;
         
@@ -166,6 +176,7 @@ public class MenuInGame : MonoBehaviour
         menuInGame.SetActive(true);
         option.SetActive(false);
         Time.timeScale = 0;
+        AudioListener.pause = false; // Garder l'audio actif
         isPaused = true;
         inOption = false;
         eventController.SetSelectedGameObject(selectedGameObject);
@@ -208,5 +219,11 @@ public class MenuInGame : MonoBehaviour
             stickCounterText.text = stickCount.ToString();
         if (fragmentCounterText != null)
             fragmentCounterText.text = fragmentCount.ToString();
+    }
+
+    public void SaveGame()
+    {
+        SaveSystem.Instance.SaveGame();
+        // TODO: Add notification system
     }
 }

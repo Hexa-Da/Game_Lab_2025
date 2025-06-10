@@ -53,6 +53,7 @@ public class CheckInteraction2D : MonoBehaviour
         {
             direction = new Vector2(0, vertical).normalized;
         }
+       
     }
 
     void CheckInteraction()
@@ -89,15 +90,16 @@ public class CheckInteraction2D : MonoBehaviour
                 }
 
                 // si l'objet avec lequel on peut interagir est actif, on l'active
-                if(newInteractable.enabled)
+                if (newInteractable.enabled)
                 {
                     SetNewCurrentInteractable(newInteractable);
                 }
+
+                else
+                {
+                    DisableCurrentInteractable();
+                }
             }
-            //else
-            //{
-            //    DisableCurrentInteractable();
-            //}
 
             else if (hit.collider != null && hit.collider.CompareTag("NPCInteractable"))
             {
@@ -116,10 +118,12 @@ public class CheckInteraction2D : MonoBehaviour
                     SetNewCurrentNPCInteractable(newNPCInteractable);
                 }
             }
+
             else
             {
                 DisableCurrentNPCInteractable();
                 DisableCurrentInteractable();
+               
             }
         }
     }
@@ -162,9 +166,9 @@ public class CheckInteraction2D : MonoBehaviour
     {
         currentInteractable = newInteractable;
         currentInteractable.EnableOutline();
-        
+
         // Afficher le message au-dessus de l'objet
-        HUDController.instance.EnableInteraction(currentInteractable.transform.position, false);
+        HUDController.instance.EnableInteraction(currentInteractable.transform.position, false, newInteractable.isTeleport); //false car jamais NPC
         
     }
 
@@ -174,7 +178,7 @@ public class CheckInteraction2D : MonoBehaviour
         currentNPCInteractable.EnableOutline();
 
         // Afficher le message au-dessus de l'objet
-        HUDController.instance.EnableInteraction(currentNPCInteractable.transform.position, true);
+        HUDController.instance.EnableInteraction(currentNPCInteractable.transform.position, true, false); // true car tt le temps NPC et jamais teleport
             
     }
     void DisableCurrentInteractable()

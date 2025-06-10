@@ -2,64 +2,95 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Rendering.Universal;
 using TMPro;
+using UnityEngine.Rendering;
+using UnityEngine.SceneManagement;
 
 
-// RattachÃ© Ã  chaque objet avec lequel on peut interagir
-// Script qui gÃ¨re l'interaction avec les objets
+// Rattaché à chaque objet avec lequel on peut interagir
+// Script qui gère l'interaction avec les objets
 public class Interaction : MonoBehaviour
 {
     Outline outline;
-    public UnityEvent onInteraction;
 
+    private SpriteRenderer m_SpriteRender;
     private AudioSource m_AudioSource;
-    private GameObject m_BlurGameObject;
+    
     private Vignette m_Vignette;
     private ChromaticAberration m_ChromaticAberration;
     private CustomVolumeComponent m_BlurVolume;
 
-    
+    [Header("Objets")]
+    public Volume m_BlurVolumeProfile;
+    public AudioClip StickSound;
+    public AudioClip FragmentSound;
+
     [Header("Options")]
     public bool isFragment = false; // vrai pour les fragments, false pour les batons
     public bool isStick = false; // vrai pour les batons, false pour les fragments
-    public bool isNPC = false;    // vrai pour les pnj
+    public bool isGlasses = false; //vrai pour les lunettes dans le tuto
+    public bool isTeleport = false; // vrai pour la porte du tuto qui permet d'avancer
+    public float initialBlurValue = 0.126f;
+    public float BlurStep = 0.021f;
+    public float initialCAValue = 0.96f;
+    public float CAStep = 0.07f;
+    public float intialVignetteValue = 0.45f;
+    public float VignetteStep = 0.16f;
 
-    [Header("Options PNJ")]
-    [SerializeField] private Transform transformNPC;
-    [SerializeField] private string npcId; 
 
     [Header("UI Compteurs")]
     private static int stickCount = 0;
     private static int fragmentCount = 0;
 
+    // Static getters and setters for the counters
+    public static int GetStickCount() => stickCount;
+    public static int GetFragmentCount() => fragmentCount;
+    public static void SetStickCount(int count) => stickCount = count;
+    public static void SetFragmentCount(int count) => fragmentCount = count;
+
     void Start()
     {
-        outline = GetComponent<Outline>(); // on recupÃ¨re le script outline
-        DisableOutline(); // et on le dÃ©sactive au dÃ©but
-        m_BlurGameObject = GameObject.Find("BlurVolume"); // recupere le component qui gere les effets de flou
-        m_ChromaticAberration = m_BlurGameObject.GetComponent<ChromaticAberration>();
-        m_BlurVolume = m_BlurGameObject.GetComponent<CustomVolumeComponent>();
-        m_Vignette = m_BlurGameObject.GetComponent<Vignette>();
+        outline = GetComponent<Outline>(); // on recupère le script outline
+        DisableOutline(); // et on le désactive au début
+        m_BlurVolumeProfile.profile.TryGet<CustomVolumeComponent>(out m_BlurVolume);
+        m_BlurVolumeProfile.profile.TryGet<ChromaticAberration>(out m_ChromaticAberration); //cherche le volume component ChromaticAberration et l'assigne a m_ChromaticAberration       m_BlurVolumeProfile.profile.TryGet<CustomVolumeComponent>(out m_BlurVolume);
+        m_BlurVolumeProfile.profile.TryGet<Vignette>(out m_Vignette);
+        m_SpriteRender = this.GetComponent<SpriteRenderer>();
+        m_AudioSource = this.GetComponent<AudioSource>();
     }
 
     public void Interact()
     {
-        if (isFragment)
+        if (isFragment || isStick || isGlasses)
         {
-            fragmentCount++;
+            
+            if (isFragment)
+            {
+                fragmentCount++;
+                m_AudioSource.clip = FragmentSound;
+            }
+            if (isStick)
+            {
+                stickCount++;
+                m_AudioSource.clip = StickSound;
+            }
+            MenuInGame.instance.UpdateUI(stickCount, fragmentCount);
+            tag = "PickedUp";
+            UpdateBlur();
+            if (m_AudioSource.clip != null)
+            {
+                m_AudioSource.Play();
+            }
+            m_SpriteRender.enabled = false;
+            Destroy(this, 5f);
         }
-        else if (isStick)
+
+        else if (isTeleport) 
         {
-            stickCount++;
+            SceneManager.LoadScene(2);
         }
-        MenuInGame.instance.UpdateUI(stickCount, fragmentCount);
-        onInteraction.Invoke();
     }
 
-    public void TriggerDialogue()
-    {
-        // fait apparaitre la bulle de dialogue au dessus du pnj
-        DialogueManager.instance.StartDialogue(npcId, transformNPC);
-    }
+
 
     public void DisableOutline()
     {
@@ -75,11 +106,9 @@ public class Interaction : MonoBehaviour
 
     public void UpdateBlur()
     {
-        Debug.Log("La il adapte le flou normalement");
-    //Pour ajuster le flou il faut:
-    // - Relever la valeur du compteur de fragment
-    // - Deduire les valeurs Ã  donner Ã  chaque paramÃ¨tre des effets (On a pas encore choisi les valeurs)
-    // - update les valeurs
-    
+        m_BlurVolume.horizontalBlur.Override(initialBlurValue - BlurStep * fragmentCount);
+        m_BlurVolume.verticalBlur.Override(initialBlurValue - BlurStep * fragmentCount);
+        m_ChromaticAberration.intensity.Override(initialCAValue - CAStep * fragmentCount);
+        m_Vignette.intensity.Override(intialVignetteValue - VignetteStep * fragmentCount);
     }
 }

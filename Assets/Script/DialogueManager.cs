@@ -27,6 +27,21 @@ public class DialogueManager : MonoBehaviour
         public string npcId; // Identifiant unique du NPC
         public string npcName;
         public List<DialogueLine> dialogueLines; // Lignes de dialogue pour ce NPC
+        public string dialogueState; // État actuel du dialogue (ex: "first_meet", "quest_started", "quest_completed")
+    }
+
+    [System.Serializable]
+    public class DialogueCondition
+    {
+        public enum ConditionType
+        {
+            FragmentCount,
+            // Ajoutez d'autres types de conditions ici si nécessaire
+        }
+
+        public ConditionType type;
+        public int requiredValue;
+        public string conditionName; // Pour identifier la condition (ex: "fragments")
     }
 
     [System.Serializable]
@@ -36,8 +51,11 @@ public class DialogueManager : MonoBehaviour
         public string dialogueId;   // ID unique de cette ligne de dialogue
         public string text;
         public List<DialogueChoice> choices; // Liste des choix possibles
+        public string requiredState; // État requis pour afficher cette ligne de dialogue
+        public string setState; // État à définir après avoir affiché cette ligne
+        public DialogueCondition condition; // Condition pour afficher cette ligne
 
-        // vÃ©rifie si la ligne de dialogue a des choix 
+        // vérifie si la ligne de dialogue a des choix 
         public bool HasChoices => choices != null && choices.Count > 0; 
     }
 
@@ -62,6 +80,32 @@ public class DialogueManager : MonoBehaviour
     private CanvasGroup bubbleCanvasGroup;
     private bool isMenuOpen = false;
 
+    // Dictionnaire pour stocker l'état des dialogues de chaque NPC
+    private Dictionary<string, string> npcDialogueStates = new Dictionary<string, string>();
+
+    // Variable statique pour stocker le nombre de fragments
+    private static int fragmentCount = 0;
+
+    // Méthode pour mettre à jour le nombre de fragments
+    public static void UpdateFragmentCount(int count)
+    {
+        fragmentCount = count;
+        Debug.Log($"Fragment count updated to: {count}");
+    }
+
+    private bool CheckCondition(DialogueCondition condition)
+    {
+        if (condition == null) return true;
+
+        switch (condition.type)
+        {
+            case DialogueCondition.ConditionType.FragmentCount:
+                return Interaction.GetFragmentCount() >= condition.requiredValue;
+            default:
+                return true;
+        }
+    }
+
     private void Awake()
     {
         instance = this;
@@ -84,7 +128,7 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    public void StartDialogue(string npcId, Transform npcTransform)
+    public void StartDialogue(string npcId, Transform npcTransform, string startDialogueId = null)
     {
         // Trouver le NPC correspondant
         currentDialogue = dialogues.Find(d => d.npcId == npcId);
@@ -95,41 +139,81 @@ public class DialogueManager : MonoBehaviour
             EndDialogue();
         }
 
-        // Configurer le dialogue courant
-        currentLine = currentDialogue.dialogueLines[0];
+        // Initialiser l'état du dialogue si nécessaire
+        if (!npcDialogueStates.ContainsKey(npcId))
+        {
+            npcDialogueStates[npcId] = "first";
+        }
+
+        // Si un ID de dialogue de départ est spécifié, l'utiliser
+        if (!string.IsNullOrEmpty(startDialogueId))
+        {
+            if (dialogueDatabase.TryGetValue(startDialogueId, out DialogueLine startLine))
+            {
+                currentLine = startLine;
+            }
+            else
+            {
+                Debug.LogWarning($"Start dialogue ID {startDialogueId} not found for NPC {npcId}");
+                return;
+            }
+        }
+        else
+        {
+            // Sinon, trouver la première ligne de dialogue valide
+            currentLine = null;
+            foreach (var line in currentDialogue.dialogueLines)
+            {
+                // Vérifier l'état et la condition
+                if ((string.IsNullOrEmpty(line.requiredState) || line.requiredState == npcDialogueStates[npcId]) 
+                    && CheckCondition(line.condition))
+                {
+                    currentLine = line;
+                    Debug.Log($"Found valid dialogue line. State: {npcDialogueStates[npcId]}, Fragment count: {Interaction.GetFragmentCount()}");
+                    break;
+                }
+            }
+        }
+
+        if (currentLine == null)
+        {
+            Debug.LogWarning($"No valid dialogue found for NPC {npcId} in state {npcDialogueStates[npcId]}. Current fragment count: {Interaction.GetFragmentCount()}");
+            return;
+        }
+
         bubbleTarget = npcTransform;
 
-        // CrÃ©er la bulle de dialogue
+        // Créer la bulle de dialogue
         CreateDialogueBubble();
         DisplayCurrentLine();    
     }
 
     private void CreateDialogueBubble()
     {
-        // DÃ©truire la bulle prÃ©cÃ©dente si elle existe
+        // Détruire la bulle précédente si elle existe
         if (activeBubble != null)
             Destroy(activeBubble);
 
-        // CrÃ©er la bulle dans le Canvas
+        // Créer la bulle dans le Canvas
         Canvas canvas = FindObjectOfType<Canvas>();
         if (canvas == null) return;
 
-        // CrÃ©er un nouveau GameObject parent pour la bulle
+        // Créer un nouveau GameObject parent pour la bulle
         GameObject bubbleParent = new GameObject("DialogueBubbleParent");
         bubbleParent.transform.SetParent(canvas.transform, false);
         
-        // Ajouter un CanvasGroup pour contrÃ´ler l'ordre de rendu
+        // Ajouter un CanvasGroup pour contrôler l'ordre de rendu
         bubbleCanvasGroup = bubbleParent.AddComponent<CanvasGroup>();
         bubbleCanvasGroup.blocksRaycasts = true;
         bubbleCanvasGroup.interactable = true;
 
-        // DÃ©placer le parent au dÃ©but de la hiÃ©rarchie pour qu'il soit rendu en premier
+        // Déplacer le parent au début de la hiérarchie pour qu'il soit rendu en premier
         bubbleParent.transform.SetAsFirstSibling();
 
         activeBubble = Instantiate(dialogueBubblePrefab, bubbleParent.transform);
         currentBubbleText = activeBubble.GetComponentInChildren<TMP_Text>();
 
-        // Trouver le ChoicesContainer dans la bulle crÃ©Ã©e
+        // Trouver le ChoicesContainer dans la bulle créée
         choicesContainer = activeBubble.transform.Find("ChoicesContainer").GetComponent<RectTransform>();
 
         if (currentBubbleText == null || choicesContainer == null)
@@ -138,7 +222,7 @@ public class DialogueManager : MonoBehaviour
             return;
         }
 
-        // Mettre Ã  jour l'interactivitÃ© en fonction de l'Ã©tat du menu
+        // Mettre à jour l'interactivité en fonction de l'état du menu
         UpdateBubbleInteractivity();
 
         PositionBubble();
@@ -157,10 +241,10 @@ public class DialogueManager : MonoBehaviour
     {
         if (bubbleTarget == null || activeBubble == null) return;
 
-        // Convertir la position monde du PNJ en position Ã©cran
+        // Convertir la position monde du PNJ en position écran
         Vector3 screenPos = Camera.main.WorldToScreenPoint(bubbleTarget.position);
         
-        // VÃ©rifier si le point est devant la camÃ©ra
+        // Vérifier si le point est devant la caméra
         if (screenPos.z < 0)
         {
             activeBubble.SetActive(false);
@@ -169,10 +253,10 @@ public class DialogueManager : MonoBehaviour
         
         activeBubble.SetActive(true);
         
-        // Calculer l'offset en fonction de la hauteur de l'Ã©cran
-        float offset = Screen.height * bubbleOffsetPercent; // Convertir le pourcentage en dÃ©cimal
+        // Calculer l'offset en fonction de la hauteur de l'écran
+        float offset = Screen.height * bubbleOffsetPercent; // Convertir le pourcentage en décimal
         
-        // Appliquer la position Ã  la bulle UI
+        // Appliquer la position à la bulle UI
         RectTransform rectTransform = activeBubble.GetComponent<RectTransform>();
         Vector3 newPosition = new Vector3(screenPos.x, screenPos.y + offset, 0);
         rectTransform.position = newPosition;
@@ -186,7 +270,7 @@ public class DialogueManager : MonoBehaviour
             return;
         }
 
-        // Mettre Ã  jour le texte
+        // Mettre à jour le texte
         currentBubbleText.text = currentLine.text;
 
         // Afficher les choix s'il y en a
@@ -211,7 +295,7 @@ public class DialogueManager : MonoBehaviour
 
         foreach (var choice in choices)
         {
-            // CrÃ©er un bouton pour chaque choix
+            // Créer un bouton pour chaque choix
             GameObject choiceButton = Instantiate(choiceButtonPrefab, choicesContainer);
             RectTransform rectTransform = choiceButton.GetComponent<RectTransform>();
             
@@ -221,7 +305,7 @@ public class DialogueManager : MonoBehaviour
 
             Button button = choiceButton.GetComponent<Button>();
 
-            // Utiliser une variable locale pour Ã©viter les problÃ¨mes de closure
+            // Utiliser une variable locale pour éviter les problèmes de closure
             var currentChoice = choice;
             button.onClick.RemoveAllListeners(); // Nettoyer les listeners existants
             button.onClick.AddListener(() => {
@@ -244,6 +328,20 @@ public class DialogueManager : MonoBehaviour
         if (dialogueDatabase.TryGetValue(choice.nextDialogueId, out DialogueLine nextLine))
         {
             currentLine = nextLine;
+            
+            // Mettre à jour l'état du dialogue si nécessaire
+            if (!string.IsNullOrEmpty(currentLine.setState))
+            {
+                npcDialogueStates[currentDialogue.npcId] = currentLine.setState;
+                Debug.Log($"Setting dialogue state to: {currentLine.setState} for NPC: {currentDialogue.npcId}");
+            }
+            else
+            {
+                // Si setState est vide, on réinitialise l'état à "first"
+                npcDialogueStates[currentDialogue.npcId] = "first";
+                Debug.Log($"Resetting dialogue state to 'first' for NPC: {currentDialogue.npcId}");
+            }
+            
             DisplayCurrentLine();
         }
         else
@@ -282,7 +380,7 @@ public class DialogueManager : MonoBehaviour
         
         if (activeBubble != null)
         {
-            // DÃ©truire le parent de la bulle
+            // Détruire le parent de la bulle
             if (activeBubble.transform.parent != null)
             {
                 Destroy(activeBubble.transform.parent.gameObject);
@@ -298,5 +396,28 @@ public class DialogueManager : MonoBehaviour
         bubbleTarget = null;
         currentDialogue = null;
         bubbleCanvasGroup = null;
+    }
+
+    // Méthode pour définir manuellement l'état d'un dialogue
+    public void SetDialogueState(string npcId, string state)
+    {
+        npcDialogueStates[npcId] = state;
+    }
+
+    // Méthode pour obtenir l'état actuel d'un dialogue
+    public string GetDialogueState(string npcId)
+    {
+        return npcDialogueStates.ContainsKey(npcId) ? npcDialogueStates[npcId] : "first";
+    }
+
+    // Méthode utilitaire pour obtenir l'ID d'une ligne de dialogue par son index
+    public string GetDialogueIdByIndex(string npcId, int index)
+    {
+        NPCDialogue dialogue = dialogues.Find(d => d.npcId == npcId);
+        if (dialogue != null && index >= 0 && index < dialogue.dialogueLines.Count)
+        {
+            return dialogue.dialogueLines[index].dialogueId;
+        }
+        return null;
     }
 }

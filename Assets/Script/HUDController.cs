@@ -14,6 +14,7 @@ public class HUDController : MonoBehaviour
     [Header("Messages")]
     [SerializeField] private string pickupMessage = "Ramasser (F)";
     [SerializeField] private string talkMessage = "Parler (F)";
+    [SerializeField] private string teleportMessage = "Ouvrir (F)";
     
     [Header("Position")]
     [SerializeField] private float pickupOffset = 1.0f; // 1 unitÃ© monde au-dessus de l'objet
@@ -34,12 +35,12 @@ public class HUDController : MonoBehaviour
     }
 
     // on active l'UI d'interaction en vÃ©rifiant si c'est un pnj ou un objet ramassable
-    public void EnableInteraction(Vector3 worldPosition, bool isNPC)
+    public void EnableInteraction(Vector3 worldPosition, bool isNPC, bool isTeleport)
     {   
         interactionUI.SetActive(true);
     
         // on change le texte en fonction de l'interaction
-        interactionText.text = isNPC ? talkMessage : pickupMessage;
+        interactionText.text = isNPC ? talkMessage : isTeleport ? teleportMessage : pickupMessage;
         
         // Configurer le RectTransform pour un positionnement correct
         RectTransform rectTransform = interactionUI.GetComponent<RectTransform>();
@@ -52,6 +53,7 @@ public class HUDController : MonoBehaviour
                 worldPosition.y + (isNPC ? npcOffset : pickupOffset), // Utiliser l'offset appropriÃ©
                 worldPosition.z
             );
+
         }
     }
 }
