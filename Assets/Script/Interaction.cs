@@ -6,6 +6,7 @@ using UnityEngine.Rendering;
 using UnityEngine.SceneManagement;
 
 
+
 // Rattaché à chaque objet avec lequel on peut interagir
 // Script qui gère l'interaction avec les objets
 public class Interaction : MonoBehaviour
@@ -29,8 +30,6 @@ public class Interaction : MonoBehaviour
     public bool isStick = false; // vrai pour les batons, false pour les fragments
     public bool isGlasses = false; //vrai pour les lunettes dans le tuto
     public bool isTeleport = false; // vrai pour la porte du tuto qui permet d'avancer
-    public float initialBlurValue = 0.126f;
-    public float BlurStep = 0.021f;
     public float initialCAValue = 0.96f;
     public float CAStep = 0.07f;
     public float intialVignetteValue = 0.45f;
@@ -56,6 +55,8 @@ public class Interaction : MonoBehaviour
         m_BlurVolumeProfile.profile.TryGet<Vignette>(out m_Vignette);
         m_SpriteRender = this.GetComponent<SpriteRenderer>();
         m_AudioSource = this.GetComponent<AudioSource>();
+        UpdateBlur();
+        MenuInGame.instance.UpdateUI(stickCount, fragmentCount);
     }
 
     public void Interact()
@@ -84,7 +85,7 @@ public class Interaction : MonoBehaviour
             Destroy(this, 5f);
         }
 
-        else if (isTeleport) 
+        else if (isTeleport && fragmentCount > 0f) 
         {
             SceneManager.LoadScene(2);
         }
@@ -106,9 +107,9 @@ public class Interaction : MonoBehaviour
 
     public void UpdateBlur()
     {
-        m_BlurVolume.horizontalBlur.Override(initialBlurValue - BlurStep * fragmentCount);
-        m_BlurVolume.verticalBlur.Override(initialBlurValue - BlurStep * fragmentCount);
+        m_BlurVolume.horizontalBlur.Override((-0.0036f * fragmentCount * fragmentCount) - 0.0057f * fragmentCount + 0.1736f);
+        m_BlurVolume.verticalBlur.Override((-0.0036f * fragmentCount * fragmentCount) - 0.0057f * fragmentCount + 0.1736f);
         m_ChromaticAberration.intensity.Override(initialCAValue - CAStep * fragmentCount);
-        m_Vignette.intensity.Override(intialVignetteValue - VignetteStep * fragmentCount);
+        m_Vignette.intensity.Override(-0.0053f*(fragmentCount*fragmentCount*fragmentCount) + 0.0417f*(fragmentCount*fragmentCount)-0.166f*fragmentCount+0.4495f);
     }
 }

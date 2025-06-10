@@ -1,6 +1,6 @@
 # Game Lab 2025
 
-Un jeu d'aventure en 2D développé dans Unity, où le joueur explore un monde mystérieux et interagit avec des PNJ tout en collectant des fragments et des bâtons.
+Un jeu d'aventure en 2D développé dans Unity par une équipe de 3 ingénieurs et 6 artistes, où le joueur explore un monde mystérieux et interagit avec des PNJ tout en collectant des fragments et des bâtons pour découvrir toujours plus du monde que nous avons élaboré.
 
 ## Fonctionnalités
 
@@ -17,14 +17,14 @@ Un jeu d'aventure en 2D développé dans Unity, où le joueur explore un monde m
 ## Contrôles
 
 - **ZQSD** : Déplacement du personnage
-- **Espace** : Interaction avec les objets et PNJ
+- **F** : Interaction avec les objets et PNJ
 - **Échap** : Ouvrir/fermer le menu
 
 ## Installation
 
 1. Cloner le repository
 2. Ouvrir le projet dans Unity 2022.3.16f1 ou version ultérieure
-3. Ouvrir la scène principale dans `Assets/Scenes/MainScene.unity`
+3. Ouvrir la scène d'intro dans `Assets/Scenes/Menu.unity`
 4. Lancer le jeu depuis l'éditeur Unity
 
 ## Développement
@@ -37,4 +37,17 @@ Le projet a été développé en C# avec Unity, en utilisant les fonctionnalité
 
 ## Crédits
 
-Développé dans le cadre du Game Lab 2025. 
+### Équipe de développement
+**Mines Nancy**
+- Noémie
+- Antoine  
+- Paul-Antoine
+
+### Équipe artistique
+**ENSAD Nancy** 
+- Matteo
+- Nastasia
+- Joseph
+- Katell
+- Maria
+- Garance

@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 // RattachÃ© au dialogueManager
 // Script qui gÃ¨re la bulle de dialogue et les dialogues
@@ -389,6 +390,8 @@ public class DialogueManager : MonoBehaviour
             {
                 Destroy(activeBubble);
             }
+            if (npcDialogueStates[currentDialogue.npcId] == "end")
+            SceneManager.LoadScene(3);
         }
 
         activeBubble = null;
