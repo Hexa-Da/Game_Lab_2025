@@ -1,56 +1,53 @@
 # Game Lab 2025
 
-Un projet de jeu Unity développé dans le cadre du Game Lab 2025.
-
-## Description
-
-Ce projet est un jeu développé avec Unity, incluant un système de menu en jeu avec :
-- Un menu pause
-- Un menu d'options
-- Un système d'inventaire
+Un jeu d'aventure en 2D développé dans Unity par une équipe de 3 ingénieurs et 6 artistes, où le joueur explore un monde mystérieux et interagit avec des PNJ tout en collectant des fragments et des bâtons pour découvrir toujours plus du monde que nous avons élaboré.
 
 ## Fonctionnalités
 
-- Menu pause accessible avec la touche Échap
-- Menu d'options pour configurer le jeu
-- Système d'inventaire pour gérer les objets collectés
-- Interface utilisateur intuitive et responsive
+- **Système de dialogue** : Interactions avec les PNJ via un système de dialogue dynamique
+- **Collecte d'objets** : Système de collecte de fragments et de bâtons
+- **Effets visuels** : 
+  - Effet de flou progressif
+  - Aberration chromatique
+  - Effet de vignette
+- **Système de menu** : Menu en jeu avec options de réglages
+- **Système de sauvegarde** : Sauvegarde automatique des progrès
+- **Téléportation** : Système de téléportation entre les scènes
 
-## Prérequis
+## Contrôles
 
-- Unity 2022.3 ou version ultérieure
-- Visual Studio 2019/2022 ou Visual Studio Code
+- **ZQSD** : Déplacement du personnage
+- **F** : Interaction avec les objets et PNJ
+- **Échap** : Ouvrir/fermer le menu
 
 ## Installation
 
-1. Clonez ce dépôt :
-```bash
-git clone https://github.com/votre-username/Game_Lab_2025.git
-```
+1. Cloner le repository
+2. Ouvrir le projet dans Unity 2022.3.16f1 ou version ultérieure
+3. Ouvrir la scène d'intro dans `Assets/Scenes/Menu.unity`
+4. Lancer le jeu depuis l'éditeur Unity
 
-2. Ouvrez le projet dans Unity Hub
+## Développement
 
-3. Ouvrez la scène principale dans le dossier Scenes
+Le projet a été développé en C# avec Unity, en utilisant les fonctionnalités suivantes :
+- Unity UI pour l'interface utilisateur
+- TextMeshPro pour le rendu du texte
+- Universal Render Pipeline pour les effets visuels
+- Système de dialogue personnalisé
 
-## Structure du Projet
+## Crédits
 
-```
-Assets/
-├── Script/           # Scripts C#
-├── Scenes/          # Scènes du jeu
-├── Prefabs/         # Préfabriqués
-└── UI/              # Éléments d'interface utilisateur
-```
+### Équipe de développement
+**Mines Nancy**
+- Noémie
+- Antoine  
+- Paul-Antoine
 
-## Contribution
-
-Les contributions sont les bienvenues ! N'hésitez pas à :
-1. Fork le projet
-2. Créer une branche pour votre fonctionnalité
-3. Commiter vos changements
-4. Pousser vers la branche
-5. Ouvrir une Pull Request
-
-## Licence
-
-Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails. 
+### Équipe artistique
+**ENSAD Nancy** 
+- Matteo
+- Nastasia
+- Joseph
+- Katell
+- Maria
+- Garance
